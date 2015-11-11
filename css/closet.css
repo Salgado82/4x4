@@ -1,0 +1,171 @@
+.closet-p2{color:black !important}
+
+@media only screen and (min-width: 1199px)
+{
+	
+	.closet-pregunta
+	{
+		text-align:center;
+		width:100%;
+		letter-spacing:2px;
+		font-family:noteworthy-light;
+		line-height:25px;
+		color:black;
+	}
+	
+	.closet-p1 ul li
+	{
+		
+		padding:10px;
+	}
+	
+	.closet-p1 ul{margin-top:50px;}
+	.closet-p1{padding-top:50px;}
+	.closet-p2{padding-top:50px;}
+	
+	#closet-txt
+	{
+		position:absolute;
+		top:70%;
+		left:10%;
+		z-index:1;
+	}
+	
+	
+	
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	.closet-pregunta
+	{
+		text-align:center;
+		width:100%;
+		letter-spacing:2px;
+		font-family:noteworthy-light;
+		line-height:25px;
+		color:black;
+	}
+	
+	.closet-p1 ul li
+	{
+		
+		padding:10px;
+	}
+	
+	.closet-p1 ul{margin-top:50px;}
+	.closet-p1{padding-top:50px;}
+	.closet-p2{padding-top:50px;}
+	
+	#closet-txt
+	{
+		position:absolute;
+		top:70%;
+		left:10%;
+		z-index:1;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+	.closet-pregunta
+	{
+		text-align:center;
+		width:100%;
+		letter-spacing:2px;
+		font-family:noteworthy-light;
+		line-height:25px;
+		color:black;
+	}
+	
+	.closet-p1 ul li
+	{
+		
+		padding:10px;
+	}
+	
+	.closet-p1 ul{margin-top:50px;}
+	.closet-p1{padding-top:50px;}
+	.closet-p2{padding-top:50px;color:black}
+	
+	#closet-txt
+	{
+		position:absolute;
+		top:60%;
+		left:10%;
+		z-index:1;
+	}
+	
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	.closet-pregunta
+	{
+		text-align:center;
+		width:100%;
+		letter-spacing:2px;
+		font-family:noteworthy-light;
+		line-height:25px;
+		color:black;
+	}
+	
+	.closet-p1 ul li
+	{
+		
+		padding:10px;
+	}
+	
+	.closet-p1 ul{margin-top:50px;}
+	.closet-p1{padding-top:50px;}
+	.closet-p2{padding-top:50px;}
+	
+	#closet-txt
+	{
+		position:absolute;
+		top:50%;
+		left:10%;
+		z-index:1;
+		width:300px;
+		height:130px;
+	}
+  
+}
+
+
+@media only screen and (max-width: 479px)
+{
+	.closet-pregunta
+	{
+		text-align:center;
+		width:100%;
+		letter-spacing:2px;
+		font-family:noteworthy-light;
+		line-height:25px;
+		color:black;
+	}
+	
+	.closet-p1 ul li
+	{
+		
+		padding:10px;
+	}
+	
+	.closet-p1 ul{margin-top:50px;}
+	.closet-p1{padding-top:50px;}
+	.closet-p2{padding-top:50px;}
+	
+	#closet-txt
+	{
+		position:absolute;
+		top:50%;
+		left:10%;
+		z-index:1;
+		width:200px;
+		height:80px;
+	}
+  
+}

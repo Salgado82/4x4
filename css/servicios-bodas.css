@@ -1,0 +1,185 @@
+
+.center{text-align:center}
+
+@media only screen and (min-width: 1199px)
+{
+	#bodas-floating
+	{
+		position:absolute;
+		top:10%;
+		left:5%;
+		width:30%;
+		
+		border:2px solid black;
+		z-index:1;
+		line-height:25px;
+		letter-spacing:2px;
+		font-family:Didot;
+		font-size:15px;
+		color:black;
+		padding:15px;
+	}
+	
+	#bodas-styling
+	{
+		position:absolute;
+		top:0;
+		left:calc(100% - 85px);
+		height:500px;
+	}
+	
+	.bodas-separator
+	{
+		height:100px;
+	}
+	
+	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	#bodas-floating
+	{
+		position:absolute;
+		top:10%;
+		left:5%;
+		width:30%;
+		
+		border:2px solid black;
+		z-index:1;
+		line-height:25px;
+		letter-spacing:2px;
+		font-family:Didot;
+		font-size:15px;
+		color:black;
+		padding:15px;
+	}
+	
+	#bodas-styling
+	{
+		position:absolute;
+		top:0;
+		left:calc(100% - 85px);
+		height:450px;
+	}
+	
+	.bodas-separator
+	{
+		height:100px;
+	}
+	
+	#bodas-col2{padding:0}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+	#bodas-floating
+	{
+		position:absolute;
+		top:5%;
+		left:40%;
+		width:50%;
+		
+		border:2px solid black;
+		z-index:1;
+		line-height:25px;
+		letter-spacing:2px;
+		font-family:Didot;
+		font-size:15px;
+		color:black;
+		padding:15px;
+	}
+	
+	#bodas-styling
+	{
+		position:absolute;
+		top:0;
+		left:calc(100% - 85px);
+		height:400px;
+	}
+	
+	.bodas-separator
+	{
+		height:10px;
+	}
+	
+	#bodas-col2{padding:0}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	#bodas-floating
+	{
+		position:absolute;
+		top:5%;
+		left:30%;
+		width:50%;
+		
+		border:2px solid black;
+		z-index:1;
+		line-height:25px;
+		letter-spacing:2px;
+		font-family:Didot;
+		font-size:15px;
+		color:black;
+		padding:15px;
+	}
+	
+	#bodas-styling
+	{
+		position:absolute;
+		top:0;
+		left:calc(100% - 85px);
+		height:400px;
+	}
+	
+	.bodas-separator
+	{
+		height:10px;
+	}
+	
+	#bodas-col2{padding:0}
+	
+	.bodas-foto{opacity:0.3;}
+  
+}
+
+
+@media only screen and (max-width: 479px)
+{
+	#bodas-floating
+	{
+		position:absolute;
+		top:5%;
+		left:5%;
+		width:70%;
+		
+		border:2px solid black;
+		z-index:1;
+		line-height:20px;
+		letter-spacing:1px;
+		font-family:Didot;
+		font-size:12px;
+		color:black;
+		padding:10px;
+	}
+	
+	#bodas-styling
+	{
+		position:absolute;
+		top:0;
+		left:calc(100% - 85px);
+		height:400px;
+	}
+	
+	.bodas-separator
+	{
+		height:10px;
+	}
+	
+	#bodas-col2{padding:0}
+	
+	.bodas-foto{opacity:0.3;}
+}

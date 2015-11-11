@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(../images/fondo.png);
+	margin:auto;
+	width:960px;
+	
+	}
+	
+form{
+	width:auto;
+	margin:auto;
+	}
+
+fieldset{
+	background-color:#F5F5F5;
+	border:1px solid #CCC;
+	border-radius:5px;
+	
+	}
+
+legend{
+	color:#666666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1em;
+	font-weight:bolder;
+	}
+
+
+input[type="radio"]{
+margin:5px;
+	}
+	
+
+label{
+color: #B5967F;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:.875em;
+margin:3px;
+position:relative;
+width:140px;
+}
+
+input[type="radio"]:checked + label{
+	color:#000;
+	font-weight:bold;
+	text-decoration:underline;
+}
+	
+p{
+margin:5px;
+padding:3px;
+background-color:#FFF;
+border-radius:5px;
+display:block;
+position:relative;
+float:left;
+width:226px;
+	}
+	
+.imageLast{
+	display:block;
+	width:256px;
+	height:247px;
+	}
+	
+.Present{
+	display:block;
+	width:256px;
+	margin:auto;
+	}
+	

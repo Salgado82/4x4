@@ -1,0 +1,171 @@
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1199px)
+{
+	
+	div#looks-row
+	{
+		position:relative;
+	}
+	
+	div.borde-looks
+	{
+		position:absolute;
+		border: 2px solid black;
+		padding:10px;
+		text-align:center;
+		left:10%;
+		top:5%;
+		
+	}
+	
+	#looks-img
+	{
+		width:100%;
+		height:auto;
+		opacity:0.3;
+	}
+	
+	#looks-parallax
+	{
+		width:50%;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	div#looks-row
+	{
+		position:relative;
+	}
+	
+	div.borde-looks
+	{
+		position:absolute;
+		border: 2px solid black;
+		padding:10px;
+		text-align:center;
+		left:10%;
+		top:5%;
+		
+	}
+	
+	#looks-img
+	{
+		width:100%;
+		height:auto;
+		opacity:0.3;
+	}
+	
+	#looks-parallax
+	{
+		width:50%;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+	div#looks-row
+	{
+		position:relative;
+	}
+	
+	div.borde-looks
+	{
+		position:absolute;
+		border: 2px solid black;
+		padding:10px;
+		text-align:center;
+		left:0;
+		top:10%;
+		
+	}
+	
+	#looks-img
+	{
+		width:100%;
+		height:auto;
+		opacity:0.3;
+	}
+	
+	#looks-parallax
+	{
+		width:50%;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	div#looks-row
+	{
+		position:relative;
+	}
+	
+	div.borde-looks
+	{
+		position:absolute;
+		border: 2px solid black;
+		padding:10px;
+		text-align:center;
+		left:10%;
+		top:5%;
+		width:60%;
+		
+	}
+	
+	#looks-img
+	{
+		width:100%;
+		height:auto;
+		opacity:0.2;
+	}
+	
+	#looks-parallax
+	{
+		width:100%;
+		height:400px;
+	}
+
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media only screen and (max-width: 479px)
+{
+	div#looks-row
+	{
+		position:relative;
+	}
+	
+	div.borde-looks
+	{
+		position:relative;
+		border: 2px solid black;
+		padding:10px;
+		text-align:center;
+		width:80%;
+		
+	}
+	
+	#looks-img
+	{
+		width:100%;
+		height:auto;
+		opacity:0.3;
+	}
+	
+	#looks-parallax
+	{
+		width:100%;
+	}
+}
+
+
+
+

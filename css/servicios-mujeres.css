@@ -1,0 +1,200 @@
+
+@media only screen and (min-width: 1199px)
+{
+	
+	div#mujeres-first-col
+	{
+		padding-left:25px;
+	}
+	
+	#parallax-mujeres
+	{
+		position:absolute;
+		z-index:1;
+		top:20%;
+		left:50%;
+	}
+	
+	#parallax-mujeres
+	{
+		width:250px;
+		height:380px;
+	}
+
+	.servicios-mujeres-pregunta
+	{
+		margin-top: 50px;
+		width: 100%;
+		font-weight: bold;
+		letter-spacing:2px;
+		line-height:25px;
+		font-style:italic;
+		font-size:18px;
+		font-family:Didot;
+	}
+
+	.servicios-mujeres-respuesta
+	{
+		width: 80%;
+	}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	div#mujeres-first-col
+	{
+		padding-left:25px;
+	}
+	
+	#parallax-mujeres
+	{
+		position:absolute;
+		z-index:1;
+		top:40%;
+		left:50%;
+	}
+	
+	#parallax-mujeres
+	{
+		width:200px;
+		height:280px;
+	}
+
+	.servicios-mujeres-pregunta
+	{
+		margin-top: 50px;
+		width: 80%;
+		font-weight: bold;
+		letter-spacing:2px;
+		font-style:italic;
+		font-size:18px;
+		font-family:Didot;
+	}
+
+	.servicios-mujeres-respuesta
+	{
+		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+	div#mujeres-first-col
+	{
+		padding-left:0px;
+		text-align:center
+	}
+	
+	#parallax-mujeres
+	{
+		position:absolute;
+		z-index:1;
+		top:50%;
+		left:50%;
+	}
+	
+	#parallax-mujeres
+	{
+		width:200px;
+		height:280px;
+	}
+
+	.servicios-mujeres-pregunta
+	{
+		margin-top: 10px;
+		width: 100%;
+		padding:15px;
+		font-weight: bold;
+		font-style:italic;
+		font-size:18px;
+		font-family:Didot;
+		text-align:center;
+	}
+
+	.servicios-mujeres-respuesta
+	{
+		width: 100%;
+		padding:15px;
+		text-align:center;
+	}
+  
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	div#mujeres-first-col
+	{
+		padding-left:25px;
+		text-align:center;
+	}
+	
+	#parallax-mujeres
+	{
+		position:relative;
+		margin-left:calc(50% - 100px);
+		z-index:1;
+	}
+	
+	#parallax-mujeres
+	{
+		width:200px;
+		height:280px;
+	}
+
+	.servicios-mujeres-pregunta
+	{
+		margin-top: 150px;
+		width: 100%;
+		font-weight: bold;
+		font-style:italic;
+		font-size:18px;
+		font-family:Didot;
+	}
+
+	.servicios-mujeres-respuesta
+	{
+		width: 100%;
+		text-align:center;
+	}
+  
+}
+
+
+@media only screen and (max-width: 479px)
+{
+	div#mujeres-first-col
+	{
+		padding-left:25px;
+	}
+	
+	#parallax-mujeres
+	{
+		position:relative;
+		margin-left:calc(50% - 100px);
+		z-index:1;
+	}
+	
+	#parallax-mujeres
+	{
+		width:200px;
+		height:280px;
+	}
+
+	.servicios-mujeres-pregunta
+	{
+		margin-top: 150px;
+		width: 80%;
+		font-weight: bold;
+		font-style:italic;
+		font-size:18px;
+		font-family:Didot;
+	}
+
+	.servicios-mujeres-respuesta
+	{
+		width: 80%;
+	}
+  
+}

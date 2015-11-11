@@ -1,0 +1,16 @@
+div.uno,
+div.dos,
+div.tres,
+div.cuatro
+{
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 5px;
+	margin: 8px; 
+}
+
+div.uno{background: #ddd}
+div.dos{background: #ddd}
+div.tres{background: #ddd}
+div.cuatro{background: #ddd}

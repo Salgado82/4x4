@@ -1,0 +1,5 @@
+[20-Sep-2015 13:38:14 America/Denver] PHP Warning:  include_once(global.php): failed to open stream: No such file or directory in /home6/kelevrad/public_html/4x4imagen/send_mail.php on line 2
+[20-Sep-2015 13:38:14 America/Denver] PHP Warning:  include_once(): Failed opening 'global.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home6/kelevrad/public_html/4x4imagen/send_mail.php on line 2
+[20-Sep-2015 13:38:14 America/Denver] PHP Notice:  Undefined index: email in /home6/kelevrad/public_html/4x4imagen/send_mail.php on line 9
+[20-Sep-2015 13:38:14 America/Denver] PHP Notice:  Use of undefined constant name - assumed 'name' in /home6/kelevrad/public_html/4x4imagen/send_mail.php on line 21
+[20-Sep-2015 13:38:14 America/Denver] PHP Notice:  Undefined index: name in /home6/kelevrad/public_html/4x4imagen/send_mail.php on line 21

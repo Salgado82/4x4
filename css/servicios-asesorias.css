@@ -1,0 +1,132 @@
+#lista li h3{color:black;}
+
+#asesorias-nav div 
+{
+	text-align:center;
+}
+
+#asesorias-nav div a
+{
+	font-size: 24px;
+    font-weight: bolder;
+}
+
+#asesorias-nav div a:hover
+{
+	border-bottom:2px solid black;
+}
+
+#lista li{height:18px;}
+
+@media only screen and (min-width: 1199px)
+{
+	img#personales-img-1
+	{
+		width:100%;
+		height:auto;
+	}
+	
+	div#asesorias-controles
+	{
+		position:absolute;
+		top:50%;
+		right:1%;
+	}
+	
+	div#asesorias-controles-movil
+	{
+		display:none;
+	}
+	
+	
+	
+	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	img#personales-img-1
+	{
+		width:100%;
+		height:auto;
+	}
+	
+	div#asesorias-controles
+	{
+		position:absolute;
+		top:50%;
+		right:1%;
+	}
+	
+	div#asesorias-controles-movil
+	{
+		display:none;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+	img#personales-img-1
+	{
+		width:100%;
+		height:auto;
+	}
+	
+	div#asesorias-controles
+	{
+		position:absolute;
+		top:50%;
+		right:1%;
+	}
+	
+	div#asesorias-controles-movil
+	{
+		display:none;
+	}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	img#personales-img-1
+	{
+		width:100%;
+		height:auto;
+	}
+	
+	div#asesorias-controles
+	{
+		position:absolute;
+		top:50%;
+		right:1%;
+	}
+	
+	div#asesorias-controles-movil
+	{
+		display:none;
+	}
+  
+}
+
+
+@media only screen and (max-width: 479px)
+{
+	img#personales-img-1
+	{
+		width:100%;
+		height:auto;
+	}
+	
+	div#asesorias-controles
+	{
+		display:none;
+	}
+	div#asesorias-controles-movil
+	{
+		display:none;
+	}
+  
+	#lista li{width:100%;font-size:10px;letter-spacing:1px !important;}
+  
+}

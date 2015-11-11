@@ -1,0 +1,180 @@
+section#home
+{
+  background: black;
+  color: white;
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1199px)
+{
+	section#home
+	{
+		min-height: 800px;
+		height:100vh;
+	}
+  
+	div.portrait-home
+	{
+	  margin: 0 auto;
+	  width: 850px;
+	  height : 587px;
+	  padding: 10px;
+	  border: 2px solid white;
+	}
+	
+	div.portrait-home img
+	{
+		width: 820px;
+		height : 557px;
+	}
+  
+  .whlogo
+	{
+	  width:140px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	section#home
+	{
+		min-height: 800px;
+		height:100vh;
+	}
+  
+	div.portrait-home
+	{
+	  margin: 0 auto;
+	  width: 850px;
+	  height : 587px;
+	  padding: 10px;
+	  border: 2px solid red;
+	  border: 2px solid white;
+	}
+	
+	div.portrait-home img
+	{
+		width: 820px;
+		height : 557px;
+	}
+	
+	.whlogo
+	{
+		width: 140px;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+	section#home
+	{
+		min-height: 500px;
+		max-height: 800px;
+		height:100vh;
+	}
+  
+	div.portrait-home
+	{
+	  margin: 0 auto;
+	  height : 513px;
+	  padding: 10px;
+	  width: 760px;
+	  border: 2px solid blue;
+	  border: 2px solid white;
+	}
+	
+	div.portrait-home img
+	{
+		width:740px;
+		height:493px;
+	}
+
+  
+	.whlogo
+	{
+		width: 120px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	div#page
+	{
+		margin-top:40px;
+	}
+	
+	section#home
+	{
+		min-height: 420 px;
+		max-height: 800px;
+		height:100vh;
+	}
+  
+	div.portrait-home
+	{
+	  margin: 10% auto;
+	  height : 219px;
+	  padding: 0px;
+	  width: 320px;
+	  border: 1px solid cyan;
+	  border: 1px solid white;
+	}
+	
+	div.portrait-home img
+	{
+		width:318px;
+		height:217px;
+	}
+
+  
+	.whlogo
+	{
+		width: 120px;
+	}
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media only screen and (max-width: 479px)
+{
+	div#page
+	{
+		margin-top:40px;
+	}
+	
+	section#home
+	{
+		min-height: 480px;
+		max-height: 667px;
+		height:100vh;
+	}
+  
+	div.portrait-home
+	{
+	  margin: 10% auto;
+	  height : auto;
+	  padding: 0px;
+	  width: 100%;
+	  border: 1px solid yellow;
+	  border: 1px solid white;
+	}
+	
+	div.portrait-home img
+	{
+		width:100%;
+		height:auto;
+	}
+
+  
+	.whlogo
+	{
+		width: 120px;
+	}
+}
+
+
+
+

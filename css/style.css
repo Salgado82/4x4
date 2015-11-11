@@ -1,0 +1,107 @@
+
+@import url(home.css);
+@import url(quienes-somos.css);
+@import url(servicios.css);
+@import url(servicios-talleres.css);
+@import url(servicios-teens.css);
+@import url(servicios-mujeres.css);
+@import url(servicios-empresarial.css);
+@import url(servicios-asesorias.css);
+@import url(servicios-styling.css);
+@import url(servicios-bodas.css);
+@import url(viajes.css);
+@import url(personal.css);
+@import url(closet.css);
+@import url(cambio.css);
+@import url(looks.css);
+@import url(negocios.css);
+@import url(certificado.css);
+@import url(contacto.css);
+
+
+@font-face {
+    font-family: noteworthy-regular;
+    src: url(../utils/fonts/raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: noteworthy-light;
+    src: url(../utils/fonts/raleway/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: noteworthy-bold;
+    src: url(../utils/fonts/raleway/Raleway-Bold.ttf);
+}
+
+section,p,ul li{font-family:noteworthy-regular;}
+
+section
+{
+	clear:both;
+}
+
+.font4x4{font-family:noteworthy-regular;}
+.font4x4bold{font-family:noteworthy-bold;}
+.font4x4light{font-family:noteworthy-light;}
+.font12{font-size:12px;}
+.font14{font-size:14px;}
+.font16{font-size:16px;}
+.font19{font-size:19px;}
+.font14bold{font-size: 14px;font-weight: 500;}
+.font14light{font-size: 14px;color: #666;font-family: noteworthy-light;font-weight: bolder;}
+.white{color: white}
+.gray{color: #666}
+
+div#wrapper
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+div.clear
+{
+  width: 100%;
+  clear: both;
+}
+
+.w100
+{
+  width: 100%;
+}
+
+.borde
+{
+  border: 2px solid;
+  border: 0px solid;
+}
+
+
+
+*,html,body
+{
+  font-family: noteworthy-regular;
+  padding:0;
+  margin:0;
+}
+
+ul{list-style: none}
+
+a,a:link,a:visited,a:hover,a:active
+{
+  text-decoration: none;
+  color:black;
+}
+
+div.separator{border:2px solid gray;clear:both;width:100%}
+
+.good{font-size: 14px;
+    color: #666;
+    font-family: noteworthy-light;
+    font-weight: bolder;
+	letter-spacing:2px;
+	line-height:20px;}
+	
+ul.listspacing li
+{padding:10px;}

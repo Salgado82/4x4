@@ -1,0 +1,139 @@
+
+
+
+#Mail,#Mensaje,#Send
+{
+	position: relative;
+	text-align:center;
+	font-size:10px;
+	font-family:noteworthy-light;
+	text-transform:uppercase;
+}
+
+#Mail,#Mensaje
+{
+	border:none;
+	background: #f8f8f8;
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1199px)
+{
+	#parallax-contacto
+	{
+		width:90%;
+		height:auto;
+		padding-left:20px;
+	}
+	
+	#contacto-clear
+	{
+		height:100px;
+		clear:both;
+		width:100%;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	#parallax-contacto
+	{
+		width:90%;
+		height:auto;
+		padding-left:20px;
+	}
+	
+	#contacto-clear
+	{
+		height:100px;
+		clear:both;
+		width:100%;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+	#parallax-contacto
+	{
+		width:300px;
+		height:447px;
+		margin-left: calc(50% - 150px);
+		padding-bottom:30px;
+	}
+	
+	#contacto-clear
+	{
+		height:20px;
+		clear:both;
+		width:100%;
+	}
+	
+	#Mail,#Mensaje,#Send
+	{
+		width:100%;
+	}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	#parallax-contacto
+	{
+		width:300px;
+		height:447px;
+		margin-left: calc(50% - 150px);
+		padding-bottom:30px;
+	}
+	
+	#contacto-clear
+	{
+		height:20px;
+		clear:both;
+		width:100%;
+	}
+	
+	#Mail,#Mensaje,#Send
+	{
+		width:100%;
+	}
+
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media only screen and (max-width: 479px)
+{
+	#parallax-contacto
+	{
+		width:200px;
+		height:298px;
+		margin-left: calc(50% - 100px);
+		padding-bottom:20px;
+	}
+	
+	#contacto-clear
+	{
+		height:20px;
+		clear:both;
+		width:100%;
+	}
+	
+	#Mail,#Mensaje,#Send
+	{
+		width:100%;
+	}
+	
+	.contacto-img
+	{
+		width:100%;
+	}
+}
+
+
+
+

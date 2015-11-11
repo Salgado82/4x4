@@ -1,0 +1,226 @@
+
+
+
+@media only screen and (min-width: 1199px)
+{
+	.viaj{padding:0}
+	.viajes-separator
+	{
+		height:50px;
+	}
+	
+	.viajes-foto
+	{
+		margin-top:20%;
+	}
+	
+	#viajes-para
+	{
+		
+	}
+	
+	.viajes-pregunta
+	{
+    text-align: center;
+    letter-spacing: 2px;
+	font-weight:bold;
+    font-family:Didot;
+	font-style:italic;
+	font-size:18px;
+    line-height: 25px;
+	margin-top:50px;
+	}
+	
+	.viajes-respuesta
+	{
+		margin-top:50px;
+	}
+	
+	.viajes-bg{
+		position:relative;
+		
+	}
+	
+	#viajes-movil{display:none}
+	
+	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	.viaj{padding:0}
+	.viajes-separator
+	{
+		height:50px;
+	}
+	
+	.viajes-foto
+	{
+		margin-top:20%;
+	}
+	
+	#viajes-para
+	{
+		
+	}
+	
+	.viajes-pregunta
+	{
+    text-align: center;
+    letter-spacing: 2px;
+	font-weight:bold;
+    font-family:Didot;
+	font-style:italic;
+	font-size:18px;
+    line-height: 25px;
+	margin-top:50px;
+	}
+	
+	.viajes-respuesta
+	{
+		margin-top:50px;
+	}
+	
+	.viajes-bg{
+		position:relative;
+		
+	}
+	
+	#viajes-movil{display:none}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+	.viaj{}
+	.viajes-separator
+	{
+		height:50px;
+	}
+	
+	.viajes-foto
+	{
+		margin-top:20%;
+	}
+	
+	#viajes-para
+	{
+		
+	}
+	
+	.viajes-pregunta
+	{
+    text-align: center;
+    letter-spacing: 2px;
+	font-weight:bold;
+    font-family:Didot;
+	font-style:italic;
+	font-size:18px;
+    line-height: 25px;
+	margin-top:50px;
+	}
+	
+	.viajes-respuesta
+	{
+		margin-top:50px;
+	}
+	
+	.viajes-bg{
+		position:relative;
+		
+	}
+	
+	#viajes-movil{display:none}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	
+	
+	
+	
+  .viajes-separator
+	{
+		height:50px;
+	}
+	
+	.viajes-foto
+	{
+		margin-top:20%;
+	}
+	
+	#viajes-para
+	{
+		
+	}
+	
+	.viajes-pregunta
+	{
+    text-align: center;
+    letter-spacing: 2px;
+	font-weight:bold;
+    font-family:Didot;
+	font-style:italic;
+	font-size:18px;
+    line-height: 25px;
+	margin-top:50px;
+	}
+	
+	.viajes-respuesta
+	{
+		margin-top:50px;
+	}
+	
+	.viajes-bg{
+		position:relative;
+		
+	}
+	
+	#viajes-medium{display:none !important}
+	#viajes-movil{display:block}
+}
+
+
+@media only screen and (max-width: 479px)
+{
+	.viajes-separator
+	{
+		height:50px;
+	}
+	
+	.viajes-foto
+	{
+		margin-top:20%;
+	}
+	
+	#viajes-para
+	{
+		
+	}
+	
+	.viajes-pregunta
+	{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight:bold;
+	font-family:Didot;
+	font-style:italic;
+	font-size:18px;
+    line-height: 25px;
+	margin-top:50px;
+	}
+	
+	.viajes-respuesta
+	{
+		margin-top:50px;
+	}
+	
+	.viajes-bg{
+		position:relative;
+		
+	}
+	
+	#viajes-medium{display:none !important}
+	#viajes-movil{display:block}
+}

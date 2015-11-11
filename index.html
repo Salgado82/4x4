@@ -1,0 +1,837 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="">
+
+    <title>4x4</title>
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+	
+	<link type="text/css" rel="stylesheet" href="css/demo.css" />
+	<link type="text/css" rel="stylesheet" href="dist/core/css/jquery.mmenu.all.css" />
+
+	
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<!--<script src="plugins/scroll/js/jquery-2.1.3.min.js"></script>-->
+	<script src="plugins/scroll/js/jquery.easing.1.3.js"></script>
+	<script src="plugins/scroll/js/jquery.parallax-scroll.js"></script>
+	
+	<script type="text/javascript" src="js/asesorias.js"></script>
+	<script src="js/secciones/qs.js"></script>
+	<script src="js/secciones/servicios.js"></script>
+	<script src="js/secciones/servicios-teens.js"></script>
+	
+	<script type="text/javascript" src="dist/core/js/jquery.mmenu.min.all.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('nav#menu-movil').mmenu();
+		});
+	</script>
+	
+	<script type="text/javascript">
+	
+	var mail_sender = false;
+	function verificaInfo()
+	{
+		var success = 0;
+		var email = $("#Mail").val();
+		var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+		if(re.test(email))
+		{
+			if($("#Mensaje").val() != "")
+			{
+				var options = { 
+				target:        '#result',
+				beforeSubmit:  showRequest,
+				success:       showResponse
+				}; 
+			 
+				$('#form-contacto').ajaxSubmit(options); 
+					
+			}
+		}
+			
+		
+	}
+	
+	function showRequest(formData, jqForm, options)
+	{
+		;
+	} 
+ 
+	function showResponse(responseText, statusText, xhr, $form)
+	{ 
+		;
+	} 
+	</script>
+	
+	
+	
+  </head>
+  <body>
+	
+ 	<!--Menú-->
+	<header>
+		<nav id="main-menu" class="navbar  navbar-fixed-top menu-hidden">
+			<ul class="link-4x4" id="link-4x4">
+				<li >
+					<a class="na" href="#home">HOME</a>
+				</li>
+				<li >
+					<a class="na" href="#quienes-somos">QUIÉNES SOMOS</a>
+				</li>
+				<li >
+					<a class="na" href="#servicios">SERVICIOS</a>
+				</li>
+				<li >
+					<a class="na" href="#contacto">CONTACTO</a>
+				</li>
+				<li>
+					<span><a href="http://www.4x4imagen.com/blog/index.html" target="_blank">BLOG</a></span>
+				</li>
+			</ul>
+		</nav>
+		<div class="header fixed">
+				<a href="#menu-movil"></a>
+				Menú 4x4
+		</div>
+		<nav id="menu-movil">
+				<ul>
+					<li><a class="na" href="#home">Home</a></li>
+					<li><a class="na" href="#quienes-somos">Quiénes Somos</a>
+					<li><a class="na" href="#servicios">Servicios</a>
+					<li><a class="na" href="#about">Talleres</a>
+						<ul>
+							<li><a class="na" href="#about/history">Mujeres</a></li>
+							<li><a class="na" href="#about/team">Teens</a></li>
+							<li><a class="na" href="#about/team">Empresarial</a></li>
+						</ul>
+					</li>
+					<li><a class="na" href="#certificado">Certificados</a></li>
+					<li><a class="na" href="#contacto">Contacto</a></li>
+				<li><span><a href="http://www.4x4imagen.com/blog/index.html"><img src="img/blog_icon.png" width="50" height="50"></a></span></li>
+				</ul>
+		</nav>
+		
+		<!--<div id="logo">
+			<a href=""><img src="layout/welcome/logo.png" width="70" height="60" /></a>
+		</div>-->
+	</header>
+  
+	<div id="page" >
+    <div id="wrapper" >
+
+      <!-- WELCOME -->
+      <section id="home" >
+		<center>
+			<div class="clear"></div>
+			<br />
+			<a href="index.html">
+				<img src="layout/welcome/logo.png" class="whlogo">
+			</a>
+			<br/>
+			<br/>
+        
+			<div class="portrait-home">
+				<img src="layout/welcome/foto.png" />
+			</div>
+			<br/>
+			<img src="layout/welcome/welcome.png" />
+			<br/>
+			<br/>
+        <center>
+      </section>
+	  <div class="separator"></div>
+
+		<!-- QUIENES-SOMOS -->
+		<section id="quienes-somos" style="position:relative;display:table;">
+			<div>
+				<img src="layout/quienes-somos/quienessomos.png" id="parallax-quienessomos"  data-parallax='{"y": 70}'/>
+			</div>
+		    <div class="w100 bottom-qs" style="position:relative">
+				<div class="col-lg-7 col-md-7 qs-div-h" style="padding: 0">
+						<img id="qs-img1" class="w100 qs-img1-offset" src="layout/quienes-somos/foto.png"/>
+				</div>
+				<div class="col-lg-4  col-md-4  qs-div-h" style="padding: 0">
+					<img id="qs-img2" class="w100" src="layout/quienes-somos/foto2.png" />
+				</div>
+			</div>
+			<br/>
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="qs-controller-down">
+				<h1 onclick="changeSliderDown();return false">&nbsp;<<</h1>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="qs-text-slider" style="position:relative">
+				<br/>
+    			<p id="text-0">Somos una empresa de Asesoras dedicadas
+    			exclusivamente a que logres tus objetivos a través de la
+    			imagen. Nuestra misión es sacar lo mejor de ti. Logrando
+    			la coherencia entre el 'Ser' y el 'Parecer' trabajando tu
+    			imagen interna logramos potenciar tu imagen física.</p>
+				<p id="text-1">
+				Porque una imagen vale más que mil palabras…
+				Antes de que pronunciemos una sola palabra nuestra imagen ya ha llegado
+				a nuestro interlocutor. Lo que transmitimos puede ser positivo o negativo
+				en función de cómo nos sintamos o nos quede determinada ropa. No transmitimos
+				la misma seguridad y confianza cuando nos encontramos a gusto con nosotros mismos,
+				que cuando estamos incómodos o no nos convence nuestra propia imagen</p>
+				<p id="text-2">
+				Nuestro trabajo será conocerte centrándonos en mejorar tu imagen personal.
+				4 estaciones del año (primavera, verano, otoño, invierno)
+				4 puntos cardinales (norte, sur, este, oeste),
+				4 elementos (tierra, agua, aire y fuego),
+				4 partes de un día (la mañana, mediodía, tarde y noche),
+				4 juegos de cartas (corazones, diamantes, tréboles, picas).
+				</p>
+				<p id="text-3">
+				El cuatro es el número de lo práctico, la lealtad, también es símbolo de la creación,
+				la atención al detalle. Porque todo en su mayoría necesita cuatro patas para sostenerse
+				somos la combinación perfecta de tres Asesoras aportando cada quien su particular
+				expertise y un Cliente que nos lleva a armar el equipo perfecto de 4 generando un
+				resultado único e inigualable.
+				</p>
+				
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" id="qs-controller">
+				
+				<h1 onclick="changeSliderUp();return false">&nbsp;>></h1>
+				
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="bolitas">
+				<div style="display:inline-block">
+					<div id="uno"></div>
+					<div id="dos"></div>
+					<div id="tres"></div>
+					<div id="cuatro"></div>
+				</div>
+			</div>
+		</section>
+		<div class="separator"></div>
+		
+		
+		
+		
+
+      <!-- SERVICIOS -->
+      <section id="servicios" style="position:relative;display:table;">
+		<div id="servicios-movil-title"><h3>SERVICIOS</h3></div>
+		<div style="position:relative;display:table-caption">
+			<img src="layout/servicios/servicios.png" id="parallax-servicios" data-parallax='{"y": 70}' />
+		</div>
+		<div class="row bottom-serv">
+        <div class="borde  col-lg-9 col-md-9 col-sm-12 col-xs-12 xtrm1" style="padding:0">
+          <img class="w100 servicios-first" src="layout/servicios/foto.png" />
+        </div>
+        <div class="borde servicios-second col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
+			
+          <ul class="servicios-ul">
+            <li><a class="na" href="#servicios-talleres">Talleres</a></li>
+            <li><a class="na" href="#certificado"> Certificado de regalos</a></li>
+            <li><a class="na" href="#asesorias-personales"> Asesorías personales</a></li>
+            <li><a class="na" href="#personal">Personal Shopper</a></li>
+            <li><a class="na" href="#closet">Closet Fix</a></li>
+            <li><a class="na" href="#looks">Armado de looks</a></li>
+            <li><a class="na" href="#styling">Styling para ocasiones especiales</a></li>
+            <li><a class="na" href="#viajes">Styling para viajes</a></li>
+            <li><a class="na" href="#bodas">Styling para bodas</a></li>
+            <li><a class="na" href="#negocios">Diseño de imagen de negocios</a></li>
+          </ul>
+        </div>
+		</div>
+      </section>
+	  <div class="separator"></div>
+
+    <!-- TALLERES -->
+	<section id="servicios-talleres" style="display:table;position:relative">
+		<div class=" col-lg-7 col-md-7" style="padding:0">
+			<div id="talleres-clear" class="w100"></div>
+				<div style="background:#f8f8f8;">
+					<p class="font4x4 font14light servicios-talleres-parrafo1" style="color:#666">
+				  Nuestros talleres tienen un enfoque tanto lúdico como
+				  formativo. Asesoran a cada uno de los asistentes en
+				  sesión de práctica y son una buena manera de pasar un
+				  buen rato aprendiendo a sacarse el mejor partido. Estos
+				  cursos te ofrecerán nuevas formas de mostrar lo mejor
+				  de ti y potenciar tu imagen personal. Siempre
+				  actualizados para que conozcas las últimas tendencias y
+				  puedas aprovechar toda nuestra experiencia profesional.
+					</p>
+				</div>
+				<br/>
+				<br/>
+				<div style="position:relative">
+					<img src="layout/servicios-talleres/talleres.png"	id="parallax-talleres" data-parallax='{"x": 70}'>
+				</div>
+				<div class="margin-talleres">
+					<br/>
+					<h5 class="font4x4bold servicios-talleres-parrafo2" >Ofrecemos talleres complementarios a este<br/>
+					donde cada uno incluye algo nuevo y diferente<br/>
+					para una continua actualización y aprendizaje<br/>
+					tales como: tipología de rostro, maquillaje en<br/>
+					general de día y noche, clases de<br/>
+					automaquillaje, moda, tendencias y macro<br/>
+					tendencias de ña siguiente temporada, etc...</h5>
+				</div>
+			
+		</div>
+        <div class=" col-lg-5 col-md-5" style="height:100%;padding:0">
+          <img class="w100" src="layout/servicios-talleres/foto.png"  />
+        </div>
+        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+			<center>
+			<nav id="navbar-servicios">
+				<ul>
+					<li class="font4x4bold"><h3><a class="na" href="#servicios-teens">TEENS</a></h3></li>
+					<li class="font4x4bold"><h3><a class="na" href="#servicios-mujeres">MUJERES</a></h3></li>
+					<li class="font4x4bold"><h3><a class="na" href="#servicios-empresarial">EMPRESARIAL</a></h3></li>
+				</ul>
+			</nav>
+			</center>
+        </div>
+      </section>
+	  
+	  <div class="separator"></div>
+
+      <!-- SERVICIOS-TEENS-->
+      <section id="servicios-teens" style="display:table;position:relative">
+		<img src="layout/servicios-teens/teens.png"  id="parallax-teens" data-parallax='{"y": 70}'>
+        <div class="borde col-lg-7 col-md-6 col-sm-12 col-xs-12" id="teens-first-col" >
+          <div class="servicios-teens-pregunta" style="background: #f8f8f8;width:100%">
+          <h2>¿QUIERES QUE TU HIJA REAFIRME SU
+          AUTOESTIMA, ENCUENTRE Y DESARROLLE SU
+          ESTILO PERSONAL Y CONOZCA LAS PRENDAS
+          Y COLORES QUE MEJOR LE QUEDAN?</h2>
+          </div>
+          
+          <div class="font4x4 good servicios-teens-respuesta gray">
+            Déjalo en nuestras manos!. Diseñamos un taller
+            exclusivo para teens donde de una forma
+            lúdica y creativa haremos que cada uno se encuentre
+            con lo mejor de si.
+            Arma tu grupo!
+          </div>	
+          <div class="listpad"><br/>
+            <h3 class="font4x4bold">PROGRAMA<h3>
+            <ul style="margin-top:30px;" class="good listspacing">
+              <li>
+                <span class="glyphicon glyphicon-menu-right gray" aria-hidden="true"></span>
+                Dinámica de autodescubrimiento y autoestima.
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-menu-right gray" aria-hidden="true"></span>
+                Diagnóstico de Estilo.
+               </li>
+              <li>
+                <span class="glyphicon glyphicon-menu-right gray" aria-hidden="true"></span>
+                Diagnóstico de Cuerpo.
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-menu-right gray" aria-hidden="true"></span>
+              Recomendaciones para cada tipo de cuerpo y estilo.
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-menu-right gray" aria-hidden="true"></span>
+               Estudio de color y drapeado.
+              </li>
+              <li> 
+                <span class="glyphicon glyphicon-menu-right gray" aria-hidden="true"></span>
+              Moda y tendencias.
+              </li>
+            </ul>
+          </div>
+          <div class="listpad" style="margin-top:50px;">
+            <h3 class="font4x4bold">INCLUYE<h3>
+            <ul style="margin-top:30px;" class="good">
+              <li>
+                <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+              Carpeta de diagnósticos y paleta de color de la estación
+              correspondiente.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="borde col-lg-5 col-md-6 col-sm-12 col-xs-12" id="teen-second-col" style="padding:0">
+          <img class="w100" src="layout/servicios-teens/foto.png" id="teens-1-img" />
+          <img class="w100" src="layout/servicios-teens/foto2.png" id="teens-2-img" />
+        </div>
+      </section>
+	  <div class="separator"></div>
+
+      <!-- SERVICIOS-MUJERES -->
+      <section id="servicios-mujeres" style="position:relative;display:table">
+        <img src="layout/servicios-mujeres/mujeressola.png" id="parallax-mujeres" data-parallax='{"y": 80}'/>
+        <div class="borde col-lg-7 col-md-6 col-sm-12 col-xs-12" id="mujeres-first-col">
+          <div class="servicios-mujeres-pregunta" style="background:#f8f8f8">
+          <h2>¿SABÍAS QUE LO QUE COMUNICAS A LA
+          GENTE SIN HABLAR TAN SOLO CON TU
+          IMAGEN ES EL 93% Y ÚNICAMENTE EL 7% ES TU
+          COMUNICACIÓN VERBAL?</h2>
+          </div>
+		  <br/>
+          <div class=" font4x4 good servicios-mujeres-respuesta">
+            ¿Te gustaría aprender màs de ti, encontrar y desarrollar
+            tu estilo. saber que prendas
+            y colores te quedan mejor?
+            <p>Porque llegó el moemnto de renovarte y pensar en ti.
+            Diseñamos un taller exclusivo para que cada mujer
+            encuentre su verdadero potencial, cumpla sus objetivos y
+            luzca espectacular a cualquier edad.</p>
+          </div>
+          <div>
+		  <br/><br/>
+            <h3 class="font4x4bold">PROGRAMA<h3>
+            <ul style="margin-top:30px;" class="good listspacing">
+              <li>Dinámica de reflexión y autoestima.</li>
+              <li>Diagnóstico de Estilo.</li>
+              <li>Diagnóstico de Cuerpo.</li>
+              <li>Recomendaciones para cada tipo de cuerpo y estilo.</li>
+              <li>Estudio de color y drapeado.</li>
+              <li>Moda y tendencias.</li>
+            </ul>
+          </div>
+		  <br/>
+          <div>
+            <h3 class="font4x4bold">INCLUYE<h3>
+            <ul class="good">
+              <li>Carpeta de diagnósticos y paleta de color de la estación
+              correspondiente.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="borde col-lg-5 col-md-6 col-sm-12 col-xs-12" style="padding:0;margin:0">
+          <img class="w100" src="layout/servicios-mujeres/mujeres.png" />
+        </div>
+      </section>
+	  <div class="separator"></div>
+
+      <!-- SERVICIOS-EMPRESARIAL -->
+      <section id="servicios-empresarial" style="position:relative">
+        <div class="borde col-lg-2 col-md-2 empresarial-parallax" style="position:relative" data-parallax='{"y": 50}'>
+			   <img src="layout/servicios-empresarial/empresarial.png" id="parallax-empresarial">	
+        </div>
+        <div class="borde col-lg-5 col-md-5 col-sm-12 col-xs-12  white empresarial-top">
+          <h2 class="font4x4light servicios-empresarial-pregunta" >
+            ¿SABES QUE COLOR TE TRAJE,
+            FALDA, CORBATA Y
+            ACCESIOROS PROYECTAN MAYOR PODER Y LIDERAZGO?
+            ¿O MAYOR ACCESIBILIDAD Y
+            EMPATÍA? ¿CONOCES LAS
+            REGLAS DE PROTOCOLO
+            EMPRESARIAL?
+          </h2>
+          <div class="good servicios-empresarial-respuesta" style="color:white;">
+            En la actualidad, la imagen que
+            transmites en una empresa es uno de
+            los factores fundamentales en las
+            decisiones de tus clientes, proovedores
+            y todo lo que te rodea. Es un elemento
+            diferenciador de la competencia y que,
+            por lo tanto, permite que tu negocio se
+            posicione en la mente de tus clientes.
+            <p>
+            Diseñamos un taller exclusivamente
+            para hombres y mujeres de negocios
+            que quieren destacarse y sobresalir.
+            Líderes de empresas que quieren verse
+            y lucir como tal.
+            </p>
+          </div>
+        </div>
+        <div class="borde col-lg-5 col-md-5 col-sm-12 col-xs-12 col-sm-pull-24 white" style="padding:0">
+          <img class="w100" src="layout/servicios-empresarial/foto.png" />
+        </div>
+      </section>
+	  <div class="separator"></div>
+
+      <!-- ASESORIAS PERSONALES -->
+      <section id="asesorias-personales" style="position:relative">
+        <div class="col_lg_12 col_md_12 col_sm_12 col_xs_12">
+			<img id="personales-img-1" src="layout/asesorias-personales/fotos.png"/>
+			<br/>
+			<div id="asesorias-nav" class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 " style="padding:20px;">
+				<div class="col-lg-4 col-md-4 ">
+				  <a onclick="getSilver();return false;" href="#">SILVER</a><br/>
+				</div>
+				<div class="col-lg-4 col-md-4">
+				  <a onclick="getGold();return false;" href="#" >GOLD</a><br/>
+				</div>
+				<div class="col-lg-4 col-md-4">
+				  <a onclick="getPlatinum();return false;" href="#">PLATINUM</a><br/>
+				</div>	
+			</div>
+			<br/>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background:#eee">
+			<div id="asesorias-controles">
+				<a></a>
+			</div>
+			<ul style="padding:0;text-align:center;font-family:noteworthy-light" id="lista" class="good">
+				<li><h3>ASESORÍA SILVER</h3></li>
+				<li>&nbsp;</li>
+				<li>&nbsp;</li>
+				<li>Planteamiento de objetivos del cliente.</li>
+				<li>Diagnóstico de estilo.</li>
+				<li>Medición de cuerpo y rostro.</li>
+				<li>Tipología de cuerpo</li>
+				<li>Tipologìa de rostro.</li>
+				<li>Anàlisis de color y drapeado.</li>
+				<li>Recomendaciones de prendas y accesorios.</li>
+				<li>Propuestas de looks de inspiración</li>
+				<li>Incluye: carpetas de diagnóstico y paleta de colores de la estación correspondiente.</li>
+				<li>&nbsp;</li>
+				<li>&nbsp;</li>
+			</ul>
+			<div id="asesorias-controles-movil">
+				<a><h1>>></h1></a>
+			</div>
+        </div>
+      </section>
+	  <div class="separator"></div>
+
+      <!-- STYLING (Ocasiones especiales) -->
+	  
+		<section id="styling" style="position:relative;">
+			<div class="row">
+				<div id="parallax-styling">
+					<img src="layout/ocasiones/PARA.png" data-parallax='{"y": 50}'/>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="styling-top">
+						<div class="styling-pregunta">
+						¿TIENES UN EVENTO Y NO SABES QUÉ PONERTE? ¿NO SABES CUÁL ES LA TIENDA ADECUADA,
+						TE DESGASTAS PROBÁNDOTE PRENDAS QUE NO SON PARA TI, TERMINAS COMPRÁNDOTE LO
+						MISMO DEJÁNDOTE INFLUENCIAR POR LA OPIIÓN DE UNA VENDEDORA INEXPERTA, PARA VERTE
+						IGUAL QUE EL RESTO DE LOS INVITADOS?
+						</div>
+						<div class="good center styling-respuesta">
+						Una fiesta, una boda, un estreno.
+						Una reunión, una cita, una entrevista de trabajo. Una recepción
+						Asesoramos una imagen para cualquier tipo de evento. Nosotras te aconsejamos
+						la prenda y accesorios de vestir más adecuados para conseguir la imagen perfecta
+						analizando tu estilo, color, tipo de cuerpo y te damos también tips de maquillaje
+						y el peinado que más te favorece.
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12" id="styling-responsive"><br/><br/>
+					<img src="layout/ocasiones/STYLING.png" id="styling-img" style="z-index:1"/>
+				</div>
+				<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+					
+					</div>
+					<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12" style="padding:0;margin:0;">
+						<img src="layout/ocasiones/ocasionesespeciales.png" class="w100" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="separator"></div>
+
+	  
+	 
+      <!-- STYLING (Bodas)-->
+      
+	  <section id="bodas" style="position:relative">
+		<div class="row" >
+			<div id="bodas-floating">
+				LOS NOVIOS PERFECTOS ¿CUÁL ES EL VESTIDO QUE MÁS
+			  TE FAVORECERÁ? ¿QUÉ TOCADO ELEGIR? ¿CÓMO LE EXPLICO
+			  AL MAQUILLISTA QUE HAY ALGO QUE NO ENCAJA EN LOS COLORES
+			  O TÉCNICAS UTILIZADAS? ¿CÓMO DEBERIAS SER LOS ZAPATOS?
+			  ¿Y LAS FLORES DEL RAMO?¿QUÈ YE TIENES QUE LLEVAR AL HOTEL?
+			  ¿CUANTO TIEMPO ANTES DEBES HACERTE LAS PRUEBAS?¿CÓMO DEBE
+			  IR EL CORTEJO?
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" style="padding:0";>
+				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+				</div>
+				<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+					<img src="layout/bodas/foto.png" class="w100 bodas-foto" />
+					<img src="layout/ocasiones/STYLING.png" id="bodas-styling"/>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="bodas-col2">
+				
+					<div class="bodas-separator"></div>
+					
+						<img src="layout/bodas/PARA.png" class="w100"/>
+					
+					<div style="padding:10px;" class="good">
+					Son preguntas que todos nos hacemos cuando comenzamos a organizar
+					uno de los dias más importantes de nuestras vidas. No te conformes
+					con ver miles de vestidos en un catálogo, o de probarte los vestidos
+					que se han confeccionado para otra. Deja que nuestro equipo de diseño
+					en colaboración con nuestros estilistas te guíen en la creación de tu propio
+					y exclusivo vestido de novia. Te sentirás realmente especial.
+					<br/>
+					</div>
+				
+			</div>
+		</div>
+      </section>
+	  
+	  
+		<div class="separator"></div>
+		
+		
+		
+		<!--viajes-->
+		<section id="viajes">
+			<div class="row">
+			<div style="position:relative;display:table" id="viajes-medium">
+				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" style="padding:0">
+					<img src="layout/viajes/FOTO.png" class="w100 viajes-foto"/> 
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1 viaj" ><br/>
+						<img src="layout/styling/STYLING.png" id="styling-viajes">
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-11 col-xs-11 viajes-bg" id="styling-helper" style="padding:0;">
+						
+								<div class="viajes-separator"></div>
+							
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:0;text-align:center;">
+									<img src="layout/viajes/para.png" id="viajes-para">
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 viajes-pregunta">
+								¿Eres de las personas que no saben empacar, que llenan la maleta con prendas
+								que luego no usan o no saben combinar desperdiciando útil espacio?
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 viajes-respuesta good">
+								Relájate, nosotras lo pensamos por ti.
+								Para que diario luzcas diferente con los códigos de vestimenta ideales
+								te llevarás una carpeta con la foto de tu look de pies a cabeza para
+								cada ocasión sin exceso de equipaje.
+
+								</div>
+				</div>
+					
+				
+			</div>
+			<img src="layout/viajes/viajes-movil.png" class="w100" id="viajes-movil"/>
+			</div>
+		</section>
+		<div class="separator"></div>
+		
+		<!--personal shopper-->
+		<section id="personal">
+			<div class="row">
+				<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+					<div>
+					
+					</div>
+					<img src="layout/personal/FOTO.png" class="w100" data-parallax{}/>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 personal-pregunta">
+					<h2>
+					¿No te gusta ir de compras, no sabes ni que comprar, pasarte horas en un centro
+					comercial sin encontrar lo que necesites o comprando por comprar?
+					¿No haces compras efectivas porque no conoces las prendas que mejor te
+					van de acuerdo a tu cuerpo y estilo?
+					</h2>
+					</div>
+					<div class="personal-separator"></div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 good">
+					No te preocupes, déjate consentir, elaboramos una ruta de compras previa en
+					las tiendas adecuados en donde tu llegarás directo al vestidor a probarte
+					solo las prendas preseleccionadas para ti. 
+					Solo haremos las compras puntuales de lo que realmente necesitas para hacerte
+					lucir perfecto en base a tu presupuesto personal para actualizar tu vestuario
+					o para ocasiones especiales.
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="separator"></div>
+		
+		
+		<!--closet fix-->
+		<section id="closet" style="position:relative">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 closet-pregunta" >
+					<h2 class="Pregunta">¿Cuántas veces acumulamos ropa que ya no nos sirve, no nos queda o no está en condiciones?</h2>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 closet-p1 good">
+					Desechando las cosas viejas que no nos sirven hacemos lugar para lo nuevo y útil. 
+					EL CLOSET FIX ES UN SERVICIO INDEPENDIENTE QUE CONSISTE EN:
+					<ul>
+						<li>>>ORGANIZAR Y CLASIFICAR tu GUARDARROPA PARA MAXIMIZAR TUS posibilidades.</li>
+						<li>>>ELIMINAR LA ROPA PASADA DE MODA O Y LA QUE NO SE AJUSTA A TU ESTILO ACTUAL O A LA IMAGEN QUE DESEAS PROYECTAR.</li>
+						<li>>>CREAR NUEVAS COMBINACIONES CON EL VESTUARIO DISPONIBLE </li>
+						<li>>>Reconoceremos patrones de compra</li>
+						<li>>>Recomendaciones de compra</li>
+					</ul>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 closet-p2 good">
+					NUESTRO CLOSET FIX TE AYUDARÁ A DESHACERTE DE TODO LO QUE YA NO VA ACORDE A TU ESTILO,
+					PERSONALIDAD, OBJETIVOS Y TIPOLOGÍA CORPORAL. 
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" style="position:relative;">
+					<img src="layout/closet/closet-01.png" class="w100" />
+					<img src="layout/closet/closettexto.png" id="closet-txt" />
+					
+				</div>
+			</div>
+		</section>
+		<div class="separator"></div>
+		
+		<section id="cambio-look" style="position:relative">
+				<br/>
+				<div id="cambio-look-float">
+					<img src="layout/cambio/cambi.png" class="cambio-look-title" />
+				</div>
+				<br/>
+			<div class="row">
+
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding:15px;">
+					<h2 class="cambio-look-pregunta">
+					¿TE GUSTARÍA CAMBIAR DE LOOK Y NO SABES QUÉ HACERTE Y A DONDE IR?
+					</h2>
+					<p class="good cambio-look-respuesta">
+						Porque no solo se trata de ir al salón y pedir el tinte o corte de moda
+						Nosotros te asesoramos analizando tus características de forma de cara,
+						cuello, facciones, color de piel, tipo de cabello, actividades que realizas
+						y objetivos personales para asi hacerte una recomendacion moderada, media
+						o drástica para después acudir con los especialistas en materia. Déjalo en
+						nuestras manos. Llegó el momento de verte ys entirte diferente. 
+					</p>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+					<img src="layout/cambio/cambiol.png" class="w100" />
+				</div>
+			</div>
+		</section>
+
+		
+		<div class="separator"></div>
+
+		<section id="looks" style="position:relative;">
+			<div class="row" id="looks-row">
+				<div class="borde-looks" data-parallax='{"x": 50}'>
+					<img id="looks-parallax" src="layout/looks/TEXTO.png" />
+				</div>
+				<div class="col-lg-5 col-lg-offset-7 col-md-6 col-md-offset-6 col-sm-12 col-xs-12">
+					<img src="layout/looks/FOTO.png" id="looks-img"/>
+				</div>
+			</div>
+		</section>
+		
+		<div class="separator"></div>
+		<section id="negocios" style="position:relative;">
+			<div class="row" id="negocios-desktop">
+				<img id="negocios-img" src="layout/negocios/TEXTO2.png" />
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<img src="layout/negocios/FOTO.png" id="negocios-img-2"/>
+				</div>
+			</div>
+			<div class="row" id="negocios-movil">
+				<img src="layout/negocios/imagen-01.png" />
+			</div>
+		</section>
+	  
+		<div class="separator"></div>
+		<section id="certificado" style="position:relative;clear:both;">
+			<div class="row" >
+				<div style="position:absolute;z-index:1" id="certificado-box">
+					<img src="layout/certificado/Certificado2.png" />
+					<p class="certificado-txt">¿NO SABES QUÉ REGALAR Y DAS SIEMPRE LO MISMO?</p>
+					<p class="certificado-txt">Te proporcionamos el regalo perfecto que nunca olvidarán.
+					Original, diferente, útil y que hará feliz al festejado.</p>
+					<p class="certificado-txt">Cumpleaños, navidad, aniversarios, san Valentín, día de la Madre.</p>
+					<p class="certificado-txt">Elije el servicio que más te guste o te armamos el paquete especial y te
+					sorprenderás.</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 certificado-col-1">
+					<img id="certificado-img" src="layout/certificado/MANO.png" />
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 certificado-col-2">
+				</div>
+			</div>
+		</section>
+	  
+	  
+		<div class="separator"></div>
+
+
+		<section id="contacto" style="position:relative;">
+			<div class="row">
+				<div id="contacto-clear"></div>
+				<br/>
+				<br/>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<img src="layout/contacto/CONTACTO.png" id="parallax-contacto"/>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 contacto-img">
+						<img src="layout/contacto/CONTACTO3-03.png" style="width:100%" />
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 contacto-img">
+						<img src="layout/contacto/CONTACTO3-01.png" style="width:100%" />
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 contacto-img">
+						<img src="layout/contacto/CONTACTO3-02.png" style="width:100%"/>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						
+					</div>
+				</div>
+				<div class="col lg-3 col-md-3 col-sm-12 col-xs-12">
+					<br/>
+					<br/>
+					<div style="clear:both;text-align:center">
+						<a target="_blank" href="https://www.facebook.com/pages/4-x-4-Imagen/970661742953380?fref=ts"><img src="layout/contacto/FACEBOOK.png" /></a>
+						<a target="_blank" href="https://www.facebook.com/pages/4-x-4-Imagen/970661742953380?fref=ts">
+						4x4 Imagen
+						</a>
+					</div><br/>
+					<div style="clear:both;text-align:center">
+						<a target="_blank" href="https://twitter.com/4x4imagen"><img src="layout/contacto/TWITTER.png" /></a>
+						<a target="_blank" href="https://twitter.com/4x4imagen">4X4 Imagen</a>
+						
+					</div><br/>
+					<div style="clear:both;text-align:center">
+						<a target="_blank" href="https://websta.me/n/4x4imagen"> <img src="layout/contacto/INSTAGRAM.png" /></a>
+						<a target="_blank" href="https://websta.me/n/4x4imagen">
+							
+						4X4 Imagen
+						</a>
+					</div><br/>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height:100px;background:#f8f8f8;padding:0">
+					<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12" >
+						<form name="mail" id="form-contacto" action="send_mail.php" method="POST">
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="background:#f8f8f8" >
+								<input style="height:100px;" type="text" name="mail" id="Mail" placeholder="Correo electrónico"/>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="background:#f8f8f8">
+								<input style="height:100px;" type="text" name="mensaje" id="Mensaje" placeholder="Mensaje" />
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="height:100px;padding-top:40px;text-align:center">
+								<a style="height:100px;" href="#" onClick="verificaInfo()" id="Send">Enviar</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	  
+	  
+    </div>
+	</div>
+	
+	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/classie.js"></script>
+	<script src="js/jquery.form.min.js"></script>
+  </body>
+</html>

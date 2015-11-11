@@ -1,0 +1,421 @@
+
+
+
+@media only screen and (min-width: 1199px)
+{
+
+	img#parallax-quienessomos
+	{
+		position:absolute;
+		left:50%;
+		top:15%;
+		z-index:1;
+	}
+	img#parallax-quienessomos{width:250px; height:400px;}
+	
+	img#qs-img1{height:auto;}/*600*/
+	img#qs-img2{height:auto;}/*750*/
+	.qs-div-h{height:auto;}/*750*/
+	.qs-img1-offset
+	{
+		/*-ms-transform: translateY(150px);*/
+		/*-webkit-transform: translateY(150px);*/
+		/*transform: translateY(150px);*/
+	}
+	
+	#qs-controller-down{text-align:right}
+	
+	div#qs-text-slider{text-align:center;}
+	div#qs-text-slider,#qs-controller-down,#qs-controller{height:160px;}
+	#qs-controller-down h1,#qs-controller h1{
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		padding: 0;
+		margin: 0;
+		cursor: pointer;
+
+	}
+	
+	div#bolitas
+	{
+		text-align:center;
+	}
+	
+	div#bolitas #uno,
+	div#bolitas #dos,
+	div#bolitas #tres,
+	div#bolitas #cuatro
+	{
+		display: block;
+		width: 10px;
+		height: 10px;
+		outline: 0;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background:#bbb;
+		float:left;
+		margin:5px;
+	}
+	    
+	
+	div#qs-text-slider p{text-align:center;width:100%;padding:0 20px;line-height:15px;letter-spacing:3px;}
+	
+	ul.qs-ul{position:absolute;right:0;bottom:0;}
+	
+	.bottom-qs > * {
+    float: none;
+    display: inline-block;
+	}
+	.bottom-qs > *:first-child {
+		vertical-align: bottom;
+	}
+
+	.bottom-qs > *:last-child {
+		margin-left:8%;
+	}
+		
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	img#parallax-quienessomos
+	{
+		position:absolute;
+		left:50%;
+		top:5%;
+		z-index:1;
+	}
+	img#parallax-quienessomos{width:250px; height:400px;}
+	
+	img#qs-img1{height:auto;}/*600*/
+	img#qs-img2{height:auto;}/*750*/
+	.qs-div-h{height:auto;}/*750*/
+	.qs-img1-offset
+	{
+		/*-ms-transform: translateY(150px);*/
+		/*-webkit-transform: translateY(150px);*/
+		/*transform: translateY(150px);*/
+	}
+	
+	div#qs-text-slider{text-align:center}
+	
+	div#qs-text-slider,#qs-controller-down,#qs-controller{height:170px;}
+	#qs-controller-down h1,#qs-controller h1{
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		padding: 0;
+		margin: 0;
+		cursor: pointer;
+
+	}
+	
+	div#bolitas
+	{
+		text-align:center;
+	}
+	
+	div#bolitas #uno,
+	div#bolitas #dos,
+	div#bolitas #tres,
+	div#bolitas #cuatro
+	{
+		display: block;
+		width: 10px;
+		height: 10px;
+		outline: 0;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background:#bbb;
+		float:left;
+		margin:5px;
+	}
+	
+	
+	div#qs-text-slider p{float:right;width:100%;line-height:15px;letter-spacing:3px;}	
+	#qs-controller-down{text-align:right}
+	.bottom-qs > * {
+    float: none;
+    display: inline-block;
+	}
+	.bottom-qs > *:first-child {
+		vertical-align: bottom;
+	}
+
+	.bottom-qs > *:last-child {
+		margin-left:7.5%;
+	}
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+	img#parallax-quienessomos
+	{
+		position:absolute;
+		left:50%;
+		top:15%;
+		z-index:1;
+	}
+	img#parallax-quienessomos{width:250px; height:400px;}
+	
+	img#qs-img1{height:auto;}/*600*/
+	img#qs-img2{height:auto;}/*1000*/
+	.qs-div-h{height:auto;}/*600*/
+	.qs-img1-offset
+	{
+		-ms-transform: translateY(0px);
+		-webkit-transform: translateY(0px);
+		transform: translateY(0px);
+	}
+	
+	div#qs-text-slider{text-align:center;height:120px}
+	
+	div#qs-text-slider,#qs-controller-down,#qs-controller{height:120px;}
+	#qs-controller-down h1,#qs-controller h1{
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		padding: 0;
+		margin: 0;
+		cursor: pointer;
+
+	}
+	
+	div#bolitas
+	{
+		text-align:center;
+	}
+	
+	div#bolitas #uno,
+	div#bolitas #dos,
+	div#bolitas #tres,
+	div#bolitas #cuatro
+	{
+		display: block;
+		width: 10px;
+		height: 10px;
+		outline: 0;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background:#bbb;
+		float:left;
+		margin:5px;
+	}
+	
+	
+	
+	div#qs-text-slider p{float:right;width:100%;line-height:15px;letter-spacing:3px;}	
+	div#qs-controller{text-align: center;}	
+	div#qs-controller-down{text-align: center;}	
+	
+}
+
+@media only screen and (max-width: 768px)
+{
+	img#parallax-quienessomos
+	{
+		position:absolute;
+		left:50%;
+		top:15%;
+		z-index:1;
+	}
+	img#parallax-quienessomos{width:250px; height:400px;}
+	
+	img#qs-img1{height:auto;}/*600*/
+	img#qs-img2{height:auto;}/*750*/
+	.qs-div-h{height:auto;}/*600*/
+	.qs-img1-offset
+	{
+		-ms-transform: translateY(0px);
+		-webkit-transform: translateY(0px);
+		transform: translateY(0px);
+	}
+	
+	div#qs-text-slider{text-align:center;height:120px}
+	
+	div#qs-text-slider,#qs-controller-down,#qs-controller{height:120px;}
+	#qs-controller-down h1,#qs-controller h1{
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		padding: 0;
+		margin: 0;
+		cursor: pointer;
+
+	}
+	
+	div#bolitas
+	{
+		text-align:center;
+	}
+	
+	div#bolitas #uno,
+	div#bolitas #dos,
+	div#bolitas #tres,
+	div#bolitas #cuatro
+	{
+		display: block;
+		width: 10px;
+		height: 10px;
+		outline: 0;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background:#bbb;
+		float:left;
+		margin:5px;
+	}
+	
+	div#qs-text-slider p{float:left;width:100%;line-height:15px;letter-spacing:3px;}	
+	div#qs-controller{text-align: center;}
+	div#qs-controller-down{text-align: center;}
+	
+
+}
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	img#parallax-quienessomos
+	{
+		position:absolute;
+		left:50%;
+		top:15%;
+		z-index:1;
+	}
+	img#parallax-quienessomos{width:250px; height:400px;}
+	
+	img#qs-img1{height:auto;}/*600*/
+	img#qs-img2{height:auto;}/*750*/
+	.qs-div-h{height:auto;}/*600*/
+	.qs-img1-offset
+	{
+		-ms-transform: translateY(0px);
+		-webkit-transform: translateY(0px);
+		transform: translateY(0px);
+	}
+	
+	div#qs-text-slider{text-align:center;height:170px}
+	
+	div#qs-text-slider,#qs-controller-down,#qs-controller{height:170px;}
+	#qs-controller-down h1,#qs-controller h1{
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		padding: 0;
+		margin: 0;
+		cursor: pointer;
+
+	}
+	
+	div#bolitas
+	{
+		text-align:center;
+	}
+	
+	div#bolitas #uno,
+	div#bolitas #dos,
+	div#bolitas #tres,
+	div#bolitas #cuatro
+	{
+		display: block;
+		width: 10px;
+		height: 10px;
+		outline: 0;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background:#bbb;
+		float:left;
+		margin:5px;
+	}
+	
+	div#qs-text-slider p{float:left;width:100%;line-height:15px;letter-spacing:3px;}	
+	div#qs-controller{text-align: center;}
+	div#qs-controller-down{text-align: center;}
+
+}
+
+
+@media only screen and (max-width: 479px)
+{
+	img#parallax-quienessomos
+	{
+		position:absolute;
+		left:5%;
+		top:15%;
+		z-index:1;
+	}
+	img#parallax-quienessomos{width:250px; height:400px;}
+	
+	img#qs-img1{height:auto;}/*400*/
+	img#qs-img2{height:auto;}/*600*/
+	.qs-div-h{height:auto;}/*400*/
+	.qs-img1-offset
+	{
+		-ms-transform: translateY(0px);
+		-webkit-transform: translateY(0px);
+		transform: translateY(0px);
+	}
+	
+	div#qs-text-slider{text-align:center;height:250px}
+	
+	div#qs-text-slider,#qs-controller-down,#qs-controller{height:250px;}
+	#qs-controller-down h1,#qs-controller h1{
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		padding: 0;
+		margin: 0;
+		cursor: pointer;
+
+	}
+	
+	div#bolitas
+	{
+		text-align:center;
+	}
+	
+	div#bolitas #uno,
+	div#bolitas #dos,
+	div#bolitas #tres,
+	div#bolitas #cuatro
+	{
+		display: block;
+		width: 10px;
+		height: 10px;
+		outline: 0;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background:#bbb;
+		float:left;
+		margin:5px;
+	}
+	
+	div#qs-text-slider p{width:100%;line-height:12px;letter-spacing:3px;}	
+	div#qs-controller{text-align: center;}
+	div#qs-controller-down{text-align: center;}
+	
+}
+
+div#bolitas #uno{background:#333}

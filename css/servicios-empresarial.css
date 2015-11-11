@@ -1,0 +1,175 @@
+section#servicios-empresarial{display:table;background:black;position:relative}
+
+
+@media only screen and (min-width: 1199px)
+{
+	#parallax-empresarial
+	{
+		position:absolute;
+		top:0%;
+	}
+	
+	.empresarial-top{margin-top:10%;}
+
+	.empresarial-parallax{margin-top:10%;}
+
+	#parallax-empresarial{width: 200px;height:300px;}
+
+	.servicios-empresarial-pregunta
+	{
+		font-family:Didot;
+		font-style:italic;
+		font-size:18px;
+		letter-spacing: 5px;
+		width:100%;
+		text-align: center;
+		padding:10px;
+	}
+
+	.servicios-empresarial-respuesta
+	{
+		width:100%;
+		padding:10px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	#parallax-empresarial
+	{
+		position:absolute;
+		top:30%;
+	}
+	
+	.empresarial-top{margin-top:0%;}
+
+	.empresarial-parallax{margin-top:0%}
+
+	#parallax-empresarial{width: 160px;height:290px;}
+
+	.servicios-empresarial-pregunta
+	{
+		font-family:Didot;
+		font-style:italic;
+		font-size:18px;
+		letter-spacing: 2px;
+		width:100%;
+		text-align: center;
+		padding:10px;
+	}
+
+	.servicios-empresarial-respuesta
+	{
+		width:100%;
+		padding:10px;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+	#parallax-empresarial
+	{
+		position:absolute;
+		top:0%;
+		left: calc(50% - 150px);
+		
+	}
+	
+	.empresarial-top{margin-top:15%;}
+
+	.empresarial-parallax{height: 400px;}
+
+	#parallax-empresarial{width: 300px;height:400px;}
+
+	.servicios-empresarial-pregunta
+	{
+		font-family:Didot;
+		font-style:italic;
+		font-size:18px;
+		letter-spacing: 5px;
+		width:100%;
+		text-align: center;
+		padding:10px;
+	}
+
+	.servicios-empresarial-respuesta
+	{
+		width:100%;
+		text-align:center;
+		padding:10px;
+	}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	#parallax-empresarial
+	{
+		position:absolute;
+		top:0%;
+		left: calc(50% - 150px);
+		
+	}
+	
+	.empresarial-top{margin-top:15%;}
+
+	.empresarial-parallax{height: 400px;}
+
+	#parallax-empresarial{width: 300px;height:400px;}
+
+	.servicios-empresarial-pregunta
+	{
+		font-family:Didot;
+		font-style:italic;
+		font-size:18px;
+		letter-spacing: 5px;
+		width:100%;
+		text-align: center;
+		padding:10px;
+	}
+
+	.servicios-empresarial-respuesta
+	{
+		width:100%;
+		text-align:center;
+		padding:10px;
+	}
+  
+}
+
+
+@media only screen and (max-width: 479px)
+{
+	#parallax-empresarial
+	{
+		position:absolute;
+		top:0;
+		left:calc(50% - 100px);
+		
+	}
+	
+	.empresarial-top{margin-top:15%;}
+
+	.empresarial-parallax{height: 300px;}
+
+	#parallax-empresarial{width: 200px;height:300px;}
+
+	.servicios-empresarial-pregunta
+	{
+		font-family:Didot;
+		font-style:italic;
+		font-size:18px;
+		letter-spacing: 5px;
+		width:100%;
+		text-align: center;
+		padding:10px;
+	}
+
+	.servicios-empresarial-respuesta
+	{
+		width:100%;
+		padding:10px;
+	}
+  
+}
