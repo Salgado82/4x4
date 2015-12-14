@@ -8,13 +8,13 @@
 	{
 		position:absolute;
 		left:50%;
-		top:15%;
+		top:10%;
 		z-index:1;
 	}
 	img#parallax-quienessomos{width:250px; height:400px;}
 	
-	img#qs-img1{height:auto;}/*600*/
-	img#qs-img2{height:auto;}/*750*/
+	img#qs-img1{height:auto;width: 92%;}/*600*/
+	img#qs-img2{height:auto; padding-top: 50px;}/*750*/
 	.qs-div-h{height:auto;}/*750*/
 	.qs-img1-offset
 	{

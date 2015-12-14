@@ -4,40 +4,60 @@
 	
 	div#mujeres-first-col
 	{
-		padding-left:25px;
+		padding-left:30px;
 	}
 	
 	#parallax-mujeres
 	{
 		position:absolute;
 		z-index:1;
-		top:20%;
-		left:50%;
+		top:30%;
+		left:46%;
 	}
 	
 	#parallax-mujeres
 	{
-		width:250px;
-		height:380px;
+		width:220px;
+		height:350px;
 	}
 
-	.servicios-mujeres-pregunta
+	.servicios-mujeres-pregunta h2
 	{
-		margin-top: 50px;
+
 		width: 100%;
-		font-weight: bold;
+		padding:0px;
+		font-style: italic;
 		letter-spacing:2px;
-		line-height:25px;
-		font-style:italic;
+		line-height:26px;
 		font-size:18px;
+		color: #000;
+		font-weight: bold;
 		font-family:Didot;
+
 	}
 
 	.servicios-mujeres-respuesta
 	{
 		width: 80%;
+		padding-left: 20px;
+		padding-top: 10px;
+		line-height:18px !important;
 	}
 
+	.subMujeres{
+
+		color: #000;
+		letter-spacing: 3px;
+		font-size: 24px;
+		margin-left: 15px;
+	}
+	
+	.imgMujer{
+
+		width: 65%;
+		margin-top: -200px;
+		margin-left: 30px;
+	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px)

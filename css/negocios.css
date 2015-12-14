@@ -11,23 +11,23 @@
 	
 	#negocios-img
 	{
-		position:absolute;
 		z-index:1;
 		/*width:800px;*/
 		/*height:540px;*/
-		width:75%;
+		width:65%;
 		height:auto;
-		
-		
+		position: relative;
 		/*left:calc(65% - 400px);*/
-		left:16%;
+		left:6%;
+		margin-left: 25%;
 	}
 	
 	#negocios-img-2
 	{
-		width:100%;
+		width:70%;
 		height:auto;
-		opacity:0.5;
+		opacity:0.9;
+		margin-top: -28%;
 	}
 }
 

@@ -71,6 +71,10 @@ div.clear
   width: 100%;
 }
 
+.w70{
+  width: 70%;
+}
+
 .borde
 {
   border: 2px solid;
@@ -99,9 +103,13 @@ div.separator{border:2px solid gray;clear:both;width:100%}
 .good{font-size: 14px;
     color: #666;
     font-family: noteworthy-light;
-    font-weight: bolder;
-	letter-spacing:2px;
-	line-height:20px;}
-	
+    font-weight: ;
+	letter-spacing:1pt;
+	line-height:35px;}
+
+  .segundaFlecha{
+    margin-left: -15px;
+  }
+
 ul.listspacing li
-{padding:10px;}
+{padding:0px;}

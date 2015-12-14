@@ -5,36 +5,41 @@
 	{
 		position:absolute;
 		z-index:1;
-		left:50%;
+		left:53%;
 	}
 	
 	#parallax-teens
 	{
-		width:250px;
-		height:380px;
+		width:240px;
+		height:400px;
 	}
 
 	.servicios-teens-pregunta
 	{
-		width: 80%;
+		width: 100%;
+		padding:10px;
+		font-style: italic;
+		color: #000;
 		font-weight: bold;
-		padding:25px 0px;
 	}
 	
 	.servicios-teens-pregunta h2
 	{
 		/*text-align:center;*/
-		width:70%;
-		letter-spacing:2px;
+		width:80%;
+		letter-spacing:0px;
 		font-family:Didot;
-		line-height:25px;
+		line-height:30px;
 		padding-left: 40px;
+
 	}
 
 	.servicios-teens-respuesta
 	{
 		width: 80%;
 		padding-left: 40px;
+		padding-top: 20px;
+		line-height:18px !important;
 	}
 
 	.listpad{padding-left: 40px;}
@@ -42,7 +47,7 @@
 	div#teens-first-col
 	{
 		padding:0;
-		margin-top:10%;
+		margin-top:6%;
 	}
 	
 	#teens-1-img
@@ -53,6 +58,18 @@
 	#teens-2-img
 	{
 		display:none;
+	}
+
+	.subTeens{
+
+		color: #000;
+		letter-spacing: 3px;
+		font-size: 24px;
+	}
+
+	#servicios-teens{
+
+		width: 100%;
 	}
 
 }

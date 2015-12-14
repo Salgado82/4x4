@@ -6,9 +6,9 @@
 	#bodas-floating
 	{
 		position:absolute;
-		top:10%;
+		top:15%;
 		left:5%;
-		width:30%;
+		width:25%;
 		
 		border:2px solid black;
 		z-index:1;
@@ -18,14 +18,21 @@
 		font-size:15px;
 		color:black;
 		padding:15px;
+		text-align: center;
+		font-style:italic;
+		font-weight: bold;
+
 	}
+
+	.bodas-respuesta{line-height: 18px !important;}
 	
 	#bodas-styling
 	{
 		position:absolute;
 		top:0;
 		left:calc(100% - 85px);
-		height:500px;
+		height:430px;
+		margin-top: 20px;
 	}
 	
 	.bodas-separator

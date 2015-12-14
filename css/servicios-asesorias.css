@@ -7,8 +7,11 @@
 
 #asesorias-nav div a
 {
-	font-size: 24px;
+	font-size: 22px;
     font-weight: bolder;
+    letter-spacing: 2px;
+    color: #000;
+    font-weight: bold;
 }
 
 #asesorias-nav div a:hover
@@ -37,9 +40,18 @@
 	{
 		display:none;
 	}
+
+	.flechas-asesorias-izq{
+
+		text-align: right;
+		padding-top: 120px;
+	}
 	
-	
-	
+	.flechas-asesorias-der{
+
+		text-align: left;
+		padding-top: 120px;
+	}
 	
 }
 
@@ -62,6 +74,19 @@
 	{
 		display:none;
 	}
+
+	.flechas-asesorias-izq{
+
+		text-align: right;
+		padding-top: 120px;
+	}
+	
+	.flechas-asesorias-der{
+
+		text-align: left;
+		padding-top: 120px;
+	}
+	
 }
 
 
@@ -84,6 +109,19 @@
 	{
 		display:none;
 	}
+
+	.flechas-asesorias-izq{
+
+		text-align: right;
+		padding-top: 120px;
+	}
+	
+	.flechas-asesorias-der{
+
+		text-align: left;
+		padding-top: 120px;
+	}
+	
 }
 
 
@@ -106,6 +144,17 @@
 	{
 		display:none;
 	}
+
+	.flechas-asesorias-izq{
+
+		display: none;
+	}
+	
+	.flechas-asesorias-der{
+
+		display: none;
+	}
+	
   
 }
 
@@ -127,6 +176,16 @@
 		display:none;
 	}
   
+  	.flechas-asesorias-izq{
+
+		display: none;
+	}
+	
+	.flechas-asesorias-der{
+
+		display: none;
+	}
+	
 	#lista li{width:100%;font-size:10px;letter-spacing:1px !important;}
   
 }

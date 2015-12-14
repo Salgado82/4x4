@@ -7,8 +7,9 @@
 
 .link-4x4 li a {
 	padding: 0 5px;
-	color: black;
-	font-weight: 700;
+	letter-spacing: 3pt;
+	color: white;
+	font-family: noteworthy-light;
 	-webkit-transition: color 0.3s;
 	-moz-transition: color 0.3s;
 	transition: color 0.3s;
@@ -17,11 +18,11 @@
 .link-4x4 li a::before,
 .link-4x4 li a::after {
 	position: absolute;
-	width: 50%;
-	left: 25%;
+	width: 30%;
+	left: 35%;
 	top: 50%;
 	height: 2px;
-	margin-top: -1px;
+	margin-top: -0px;
 	background: none;
 	content: '';
 	z-index: -1;
@@ -45,14 +46,14 @@
 
 .link-4x4 li a:hover
  {
-	color: #000;
+	color: white;
 }
 
 .link-4x4 li a:hover::before,
 .link-4x4 li a:hover::after
 {
 	opacity: 0.7;
-	background: gray;
+	background: white;
 }
 
 .link-4x4 li a:hover::before
@@ -80,6 +81,12 @@
 		background:none;
 		z-index:1;
 	}
+
+	.logo{
+
+		width: 30%;
+		text-align: right;
+	}
 	
 	#menu-movil
 	{
@@ -89,26 +96,26 @@
 	header nav
 	{
 		width:100%;
-		height:70px;
+		height:75px;
 		padding:0;
 		margin:0;
 	}
 	
 	header nav ul
 	{
-		padding-top:10px;
-		height:70px;
+		padding-top:0px;
+		height:75px;
 		width:100%;
 		list-style:none;
 		display:table;
 		position:relative;
-		background:white;
+		background:black;
 	}
 
 	header nav ul li
 	{
-		height:70px;
-		width:60px;
+		height:75px;
+		width:auto;padding-left: 35px; padding-right: 35px;
 		text-align:center;
 		display:table-cell;
 		position:relative;

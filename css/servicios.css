@@ -31,7 +31,7 @@
 	
 	.servicios-ul
 	{
-		font-size: 16px;
+		font-size: 15px;
 		position: relative;
 	  	top: 95%;
 	  	transform: translateY(-100%);
@@ -39,7 +39,7 @@
 		-moz-transform:translateY(-100%); /* Firefox */
 		-webkit-transform:translateY(-100%);
 	  	text-align:right;
-	  	padding: 0;
+	  	padding-right: 30px;
 		/*line-height: 22px;*/
 		letter-spacing: 2px;
 	}
@@ -48,19 +48,21 @@
 	{
 		position:absolute;
 		z-index:1;
-		top:10%;
-		left:70%;
+		top:11%;
+		left:61%;
 	}
 	
 	#parallax-servicios
 	{
-		width:200px;
-		height:280px;
+		width:250px;
+		height:380px;
 	}
 
 	.servicios-first
 	{
 		height: auto;
+		width: 85% !important;
+		padding-top: 50px;
 	}
 	
 	.bottom-serv > * {
@@ -76,6 +78,11 @@
 		width:74.5% !important;
 	}
 
+	#servicios{
+
+		padding-top: 80px;
+		padding-bottom: 40px;
+	}
 	
 
 }

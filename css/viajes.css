@@ -3,7 +3,7 @@
 
 @media only screen and (min-width: 1199px)
 {
-	.viaj{padding:0}
+	.viaj{padding:0;padding-left: 80px;}
 	.viajes-separator
 	{
 		height:50px;
@@ -11,7 +11,9 @@
 	
 	.viajes-foto
 	{
-		margin-top:20%;
+		margin-top:30%;
+		margin-left: 70px;
+		width: 90%;
 	}
 	
 	#viajes-para
@@ -21,27 +23,35 @@
 	
 	.viajes-pregunta
 	{
-    text-align: center;
-    letter-spacing: 2px;
-	font-weight:bold;
-    font-family:Didot;
-	font-style:italic;
-	font-size:18px;
-    line-height: 25px;
-	margin-top:50px;
+    	text-align:center;
+		letter-spacing:2px;
+		font-weight: bold;
+		font-family:Didot;
+		font-style:italic;
+		font-size:18px;
+		line-height:25px;
+		color: #000;
+		width: 80%;
+		margin-left: 60px;
+		padding-top: 10px;
 	}
 	
 	.viajes-respuesta
 	{
-		margin-top:50px;
+		margin-top:20px;
+		line-height: 22px !important;
+		text-align: center;
 	}
 	
 	.viajes-bg{
 		position:relative;
+		background-color: #f8f8f8;
 		
 	}
 	
 	#viajes-movil{display:none}
+
+	#styling-viajes{height: 700px;}
 	
 	
 }

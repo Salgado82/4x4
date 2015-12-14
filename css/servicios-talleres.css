@@ -1,11 +1,12 @@
 
 .margin-talleres{margin-top:0px;}
 
-nav#navbar-servicios ul{list-style:none;display:table;width:100%}
-nav#navbar-servicios ul li{display:table-cell;width:30%}
+nav#navbar-servicios ul{list-style:none;display:table;width:auto} 
+nav#navbar-servicios ul li{display:table-cell;width:auto;padding-left: 35px; padding-right: 35px;}
+/*nav#navbar-servicios ul li h3{padding: 0px;}*/
 
-nav#navbar-servicios ul li a{font-size:24px;font-weight:bolder;}
-nav#navbar-servicios ul li a:hover{border-bottom:4px solid black;}
+nav#navbar-servicios ul li a{font-size:20px;font-weight:bold;letter-spacing: 3pt; color: #000}
+nav#navbar-servicios ul li a:hover{border-bottom:2px solid black;}
 
 
 
@@ -32,27 +33,42 @@ nav#navbar-servicios ul li a:hover{border-bottom:4px solid black;}
 	
 	#parallax-talleres
 	{
-		width:50%;
-		height:200px;
+		width:75%;
+		height:230px;
 		position:relative;
+		margin-top: -30px;
 	}
 
 	.servicios-talleres-parrafo1
 	{
-		width: 80%;
-		padding: 40px;
-		font-weight: 500;
-		/*line-height: 25px;*/
+		width: 78%;
+		padding-left: 60px;
+		padding-top: 20px;
+		padding-bottom:20px;
+		font-weight: 300 !important;
+		line-height: 15px;
 		letter-spacing: 2px;
-		text-align: justify;
+		text-align: left;
+		font-size: 15px !important;
 	}
 	
 	.servicios-talleres-parrafo2
 	{
 		text-align:center;
 		letter-spacing: 4px;
-		padding:20px;
-		
+		padding-top:0px;
+		color: black;
+		margin: 10px 0 10px 0 !important;
+	}
+
+	.navbarTalleres
+	{
+		margin-top: -65px;
+	}
+
+	#servicios-talleres{
+
+		padding-bottom: 40px;
 	}
 }
 

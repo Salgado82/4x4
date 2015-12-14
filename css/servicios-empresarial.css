@@ -7,29 +7,43 @@ section#servicios-empresarial{display:table;background:black;position:relative}
 	{
 		position:absolute;
 		top:0%;
+		left: 30%;
 	}
 	
-	.empresarial-top{margin-top:10%;}
+	.empresarial-top{margin-top:7%;}
 
-	.empresarial-parallax{margin-top:10%;}
+	.empresarial-parallax{margin-top:0%;}
 
 	#parallax-empresarial{width: 200px;height:300px;}
 
 	.servicios-empresarial-pregunta
 	{
-		font-family:Didot;
-		font-style:italic;
-		font-size:18px;
-		letter-spacing: 5px;
-		width:100%;
 		text-align: center;
+		width: 100%;
 		padding:10px;
+		font-style: italic;
+		letter-spacing:2px;
+		line-height:20px;
+		font-size:14px;
+		color: #FFF;
+		font-weight: lighter;
+		font-family:Didot;
 	}
 
 	.servicios-empresarial-respuesta
 	{
-		width:100%;
-		padding:10px;
+		width:60%;
+		margin-left: 20%;
+		padding-left: 10px;
+		text-align: left;
+		line-height:16px !important;
+		font-size: 12px !important;
+
+	}
+
+	.bordeEmpresarial{
+
+		padding-right: 0px;
 	}
 }
 

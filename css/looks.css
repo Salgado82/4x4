@@ -16,7 +16,7 @@
 		border: 2px solid black;
 		padding:10px;
 		text-align:center;
-		left:10%;
+		left:8%;
 		top:5%;
 		
 	}
@@ -25,12 +25,13 @@
 	{
 		width:100%;
 		height:auto;
-		opacity:0.3;
+		opacity:1;
+		margin-top: 150px;
 	}
 	
 	#looks-parallax
 	{
-		width:50%;
+		width:70%;
 	}
 
 }
