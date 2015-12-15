@@ -7,7 +7,7 @@ div.certificado-col-2{background:#eee}
 	position: relative;
 	top: 100%;
 	transform: translateY(-100%);
-	width:100%;
+	width:90%;
 	height:auto;
 }
 
@@ -45,20 +45,20 @@ div.certificado-col-2{background:#eee}
 
 	section#certificado
 	{
-		min-height:800px;
+		min-height:700px;
 		height:100vh;
 	}
 		
 	div.certificado-col-1
 	{
-		min-height:800px;
+		min-height:700px;
 		height:100vh;
 		position:relative;
 	}
 		
 	div.certificado-col-2
 	{
-		min-height:800px;
+		min-height:700px;
 		height:100vh;
 		position:relative;
 	}
