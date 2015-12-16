@@ -1,9 +1,10 @@
 function getGold()
 {
+
 	var txt = "";
 							
 	txt +="<div id='lista'>";
-	txt +="<div class='col-lg-2 col-md-2 flechas-asesorias-izq'><div class='flechas'><a onclick='getSilver();return false;' href='#''><h1><<</h1></a></div></div>";
+	txt +="<div class='col-lg-2 col-md-2 flechas-asesorias-izq'><div class='flechas'><a onclick='getSilver();return false;' id='silver' class='asesorias-menu' href='#'><h1><<</h1></a></div></div>";
 	txt +="<div class='col-lg-8 col-md-8 col-sm-12 col-xs-12'>";
 	txt +="<ul style='padding:0;text-align:center;font-family:noteworthy-light' class='good'>";
 	txt +="<li><h3>ASESORÍA GOLD</h3></li>";
@@ -25,16 +26,19 @@ function getGold()
 	txt +="</ul>";
 	txt +="</div>";
 	txt +="<div class='col-lg-2 col-md-2 flechas-asesorias-der'>";
-	txt +="<div class='flechas'><a onclick='getPlatinum();return false;' href='#''><h1>>></h1></a></div>";
+	txt +="<div class='flechas'><a onclick='getPlatinum();return false;' id='platinium' class='asesorias-menu' href='#''><h1>>></h1></a></div>";
 	txt +="</div></div>";
 
 	$("#lista").html(txt);
 	$("#lista").hide();
 	$("#lista").fadeIn(1000);
+
+	checkActive("gold");
 }
 
 function getSilver()
-{
+{	
+
 	var txt = "";
 	
 	txt +="<div id='lista'>";
@@ -59,13 +63,15 @@ function getSilver()
 	txt +="</ul>";
 	txt +="</div>";
 	txt +="<div class='col-lg-2 col-md-2 flechas-asesorias-der'>";
-	txt +="<div class='flechas'><a onclick='getGold();return false;' href='#''><h1>>></h1></a></div>";
+	txt +="<div class='flechas'><a onclick='getGold();return false;' id='gold' class='asesorias-menu' href='#''><h1>>></h1></a></div>";
 	txt +="</div></div>";
 
 				
 	$("#lista").html(txt);
 	$("#lista").hide();
 	$("#lista").fadeIn(1000);
+
+	checkActive("silver");
 }
 
 function getPlatinum()
@@ -103,4 +109,13 @@ function getPlatinum()
 	$("#lista").html(txt);
 	$("#lista").hide();
 	$("#lista").fadeIn(1000);
+
+	checkActive("platinium");
+}
+
+function checkActive(id){
+
+	$( ".asesorias-menu" ).removeClass( "active-asesorias");
+	console.log(id);
+	$( "#"+id ).addClass("active-asesorias");
 }

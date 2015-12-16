@@ -1,8 +1,12 @@
 var current_p = 0;
 
+var timer;
+
 $(document).ready(function(){
 	//resizeImgs();
 	slider1();
+
+ 	timer = setInterval(changeSliderUp, 5000);
 });
 
 $(window).resize(function(){
@@ -45,11 +49,14 @@ function slider1()
 	$("p#text-1").css("display","none");
 	$("p#text-2").css("display","none");
 	$("p#text-3").css("display","none");
-	setTimeout(function(){ changeSliderUp(); }, 100);
+	//setTimeout(function(){ changeSlideTime(); }, 5000);
 }
 
 function changeSliderUp()
 {
+	clearInterval(timer);
+	timer = setInterval(changeSliderUp, 5000);
+
 	current_p++;
 	current_p = current_p % 4;
 	
@@ -79,12 +86,15 @@ function changeSliderUp()
 			break;
 	}
 	
-	console.log(".-")
-	
+	console.log(".-U");
+
 }
 
 function changeSliderDown()
 {
+	clearInterval(timer);
+	timer = setInterval(changeSliderUp, 5000);
+
 	current_p--;
 	if(current_p < 0)
 		current_p = 3;
@@ -116,5 +126,8 @@ function changeSliderDown()
 			$("p#text-3").fadeIn();
 			break;
 	}
-	
+
+	console.log(".-D");
+
+
 }

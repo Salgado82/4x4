@@ -19,6 +19,11 @@
 	border-bottom:2px solid black;
 }
 
+#asesorias-nav div a.active-asesorias{
+	
+	border-bottom:2px solid black;
+}
+
 #lista li{height:18px;}
 
 @media only screen and (min-width: 1199px)

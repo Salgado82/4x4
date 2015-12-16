@@ -234,7 +234,7 @@
             <li><a class="na" href="#servicios-talleres">Talleres</a></li>
             <li><a class="na" href="#closet">Closet Fix</a></li>
 			<li><a class="na" href="#looks">Armado de look en closet</a></li>
-			<li><a class="na" href="#personal">Cambio de look</a></li>
+			<li><a class="na" href="#cambio-look">Cambio de look</a></li>
 			<li><a class="na" href="#personal">Personal Shopper</a></li>
 			<li><a class="na" href="#styling">Styling para ocasiones especiales</a></li>
 			<li><a class="na" href="#bodas">Styling para bodas</a></li>
@@ -255,13 +255,13 @@
 			<br/>
 			<div id="asesorias-nav" class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 " style="padding:45px;">
 				<div class="col-lg-4 col-md-4 ">
-				  <a onclick="getSilver();return false;" href="#">SILVER</a><br/>
+				  <a onclick="getSilver();return false;" id="silver" class="asesorias-menu active-asesorias" href="#">SILVER</a><br/>
 				</div>
 				<div class="col-lg-4 col-md-4">
-				  <a onclick="getGold();return false;" href="#" >GOLD</a><br/>
+				  <a onclick="getGold();return false;" id="gold" class="asesorias-menu" href="#" >GOLD</a><br/>
 				</div>
 				<div class="col-lg-4 col-md-4">
-				  <a onclick="getPlatinum();return false;" href="#">PLATINUM</a><br/>
+				  <a onclick="getPlatinum();return false;" id="platinium" class="asesorias-menu" href="#">PLATINIUM</a><br/>
 				</div>	
 			</div>
 			<br/>
@@ -294,7 +294,7 @@
 				</ul>
 			</div>
 			<div class="col-lg-2 col-md-2 flechas-asesorias-der">
-				<div class="flechas"><a onclick="getGold();return false;" href="#"><h1>>></h1></a></div>
+				<div class="flechas"><a onclick="getGold();return false;" id="gold" class="asesorias-menu" href="#"><h1>>></h1></a></div>
 			</div>
 			</div>
 			<div id="asesorias-controles-movil">
@@ -640,6 +640,35 @@
 				</div>
 			</div>
 		</section>
+
+		<div class="separator"></div>
+		
+		<section id="cambio-look" style="position:relative">
+				<br/>
+				<div id="cambio-look-float">
+					<img src="layout/cambio/cambi.png" class="cambio-look-title" />
+				</div>
+				<br/>
+			<div class="row">
+
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding:15px;">
+					<h2 class="cambio-look-pregunta">
+					¿TE GUSTARÍA CAMBIAR DE LOOK Y NO SABES QUÉ HACERTE Y A DONDE IR?
+					</h2>
+					<p class="good cambio-look-respuesta">
+						Porque no sólo se trata de ir al salón y pedir el tinte o corte de moda
+						Nosotros te asesoramos analizando tus características de forma de rostro,
+						cuello, facciones, color de piel, tipo de cabello, actividades que realizas
+						y objetivos personales para así hacerte una recomendación moderada, media
+						o drástica para después acudir con los especialistas en la materia. Déjalo en
+						nuestras manos. Llegó el momento de verte y sentirte diferente. 
+					</p>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+					<img src="layout/cambio/cambiol.png" class="w100" />
+				</div>
+			</div>
+		</section>
 		
 		<div class="separator"></div>
 
@@ -800,41 +829,6 @@
 			<img src="layout/viajes/viajes-movil.png" class="w100" id="viajes-movil"/>
 			</div>
 		</section>
-	
-	  
-	  
-		<div class="separator"></div>
-		
-
-		
-		<!--
-		<section id="cambio-look" style="position:relative">
-				<br/>
-				<div id="cambio-look-float">
-					<img src="layout/cambio/cambi.png" class="cambio-look-title" />
-				</div>
-				<br/>
-			<div class="row">
-
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding:15px;">
-					<h2 class="cambio-look-pregunta">
-					¿TE GUSTARÍA CAMBIAR DE LOOK Y NO SABES QUÉ HACERTE Y A DONDE IR?
-					</h2>
-					<p class="good cambio-look-respuesta">
-						Porque no sólo se trata de ir al salón y pedir el tinte o corte de moda
-						Nosotros te asesoramos analizando tus características de forma de rostro,
-						cuello, facciones, color de piel, tipo de cabello, actividades que realizas
-						y objetivos personales para así hacerte una recomendación moderada, media
-						o drástica para después acudir con los especialistas en la materia. Déjalo en
-						nuestras manos. Llegó el momento de verte y sentirte diferente. 
-					</p>
-				</div>
-				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-					<img src="layout/cambio/cambiol.png" class="w100" />
-				</div>
-			</div>
-		</section>
-		-->
 
 		<div class="separator"></div>
 
@@ -881,7 +875,7 @@
 				<br/>
 				<br/>
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<img src="layout/contacto/CONTACTO.png" id="parallax-contacto"/>
+					<img src="layout/contacto/CONTACTO.png" id="parallax-contacto" style="position:absolute;z-index:100;"/>
 				</div>
 				<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 contacto-img">
@@ -900,36 +894,36 @@
 				<div class="col lg-2 col-md-2 col-sm-12 col-xs-12">
 					<br/>
 					<br/>
-					<div style="clear:both;text-align:center">
-						<a target="_blank" href="https://www.facebook.com/pages/4-x-4-Imagen/970661742953380?fref=ts"><img src="layout/contacto/FACEBOOK.png" /></a>
+					<div style="clear:both;text-align:left">
+						<a target="_blank" href="https://www.facebook.com/pages/4-x-4-Imagen/970661742953380?fref=ts"><img src="layout/contacto/FACEBOOK.png" style="width:30px;" /></a>
 						<a target="_blank" href="https://www.facebook.com/pages/4-x-4-Imagen/970661742953380?fref=ts">
 						4x4 Imagen
 						</a>
 					</div><br/>
-					<div style="clear:both;text-align:center">
-						<a target="_blank" href="https://twitter.com/4x4imagen"><img src="layout/contacto/TWITTER.png" /></a>
+					<div style="clear:both;text-align:left">
+						<a target="_blank" href="https://twitter.com/4x4imagen"><img src="layout/contacto/TWITTER.png" style="width:30px;" /></a>
 						<a target="_blank" href="https://twitter.com/4x4imagen">4X4 Imagen</a>
 						
 					</div><br/>
-					<div style="clear:both;text-align:center">
-						<a target="_blank" href="https://websta.me/n/4x4imagen"> <img src="layout/contacto/INSTAGRAM.png" /></a>
+					<div style="clear:both;text-align:left">
+						<a target="_blank" href="https://websta.me/n/4x4imagen"> <img src="layout/contacto/INSTAGRAM.png" style="width:30px;"/></a>
 						<a target="_blank" href="https://websta.me/n/4x4imagen">
 							
 						4X4 Imagen
 						</a>
 					</div><br/>
 				</div>
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height:100px;background:#f8f8f8;padding:0">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 datos-correo" style="height:100px;background:#f8f8f8;padding:0;margin">
 					<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12" >
 						<form name="mail" id="form-contacto" action="send_mail.php" method="POST">
-							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="background:#f8f8f8" >
-								<input style="height:100px;" type="text" name="mail" id="Mail" placeholder="Correo electrónico"/>
+							<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" style="background:#f8f8f8" >
+								<input style="height:100px;width:100%;" type="text" name="mail" id="Mail" placeholder="Correo electrónico>>"/>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="background:#f8f8f8">
-								<input style="height:100px;" type="text" name="mensaje" id="Mensaje" placeholder="Mensaje" />
+							<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" style="background:#f8f8f8">
+								<input style="height:100px;width:100%;" type="text" name="mensaje" id="Mensaje" placeholder="Mensaje>>" />
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="height:100px;padding-top:40px;text-align:center">
-								<a style="height:100px;" href="#" onClick="verificaInfo()" id="Send">Enviar</a>
+							<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" style="height:100px;padding-top:40px;text-align:center">
+								<a style="height:100px;width:100%;" href="#" onClick="verificaInfo()" id="Send">Enviar>></a>
 							</div>
 						</form>
 					</div>
