@@ -11,25 +11,35 @@
 		letter-spacing: 2px;
 		line-height: 25px;
 		color:black;
-		margin-left: 20px;
+		margin-left: 40px;
+		text-align:center;
+		width: 70%;
 	}	
 
 	.cambio-look-respuesta
 	{
 		margin-left: 20px;
+		width: 70%;
+		margin-left: 40px;
+		line-height:20px !important;
+		margin-top: 40px;
 	}
 
 
 	#cambio-look-float
 	{
 		position: relative;
-		margin-left: calc(50% - 225px);	
 	}
 
 	.cambio-look-title
 	{
-		width: 	550px;
-		height: 270px;
+		width: 	60%;
+		margin-left: 40px;
+		margin-top: 200px
+	}
+
+	.chica-cambio{
+		width: 100%;
 	}
 
 }
